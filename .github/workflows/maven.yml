@@ -9,77 +9,8 @@ on:
   pull_request:
     branches: [ master ]
 
-#jobs:
-#  checkout:
-#    runs-on: ubuntu-latest
-#    steps:
-#      - uses: actions/checkout@v2
-#      - name: Set up JDK 1.8
-#        uses: actions/setup-java@v2
-#        with:
-#          java-version: '8.0.292'
-#          distribution: 'adopt'
-#          cache: maven
-#
-#      - name: Build with Maven
-#        run: mvn -B package --file pom.xml
-#      - name: Set up JDK 1.8
-#      - uses: actions/setup-java@v2
-#        with:
-#          java-version: '8.0.292'
-#          distribution: 'adopt'
-#          cache: maven
-
-#  build:
-#    needs: [ checkout ]
-#    steps:
-#      run: mvn package -DskipTests=true
-#
-#  test:
-#    needs: [ build ]
-#    steps:
-#      - name: Tests
-#        run: mvn test
-#
-#  mutation-test:
-#    needs: [ build ]
-#    steps:
-#      - name: Mutation tests
-#        run: mvn org.pitest:pitest-maven:mutationCoverage
-#
-#  publish-result:
-#    needs: [ test ]
-#    steps:
-#      - name: Publish Unit Test Results
-#        uses: EnricoMi/publish-unit-test-result-action@v1
-#        if: always()
-#        with:
-#          files: target/surefire-reports/*.xml
-#
-#  publish-mutation-page:
-#    - needs: [ mutation-test ]
-#    - name: Deploy
-#        uses: peaceiris/actions-gh-pages@v3
-#        if: always()
-#        with:
-#          github_token: ${{ secrets.GITHUB_TOKEN }}
-#          publish_dir: ./target/pit-reports/*/
-#
-#
-#  deploy:
-#    needs: [ publish-result ]
-#    runs-on: ubuntu-latest
-#    steps:
-#      - uses: actions/checkout@v2
-#      - name: Deploy heroku
-#          uses: akhileshns/heroku-deploy@master # This is the action
-#          with:
-#            heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-#            heroku_app_name: "gfr-judges-online"
-#            heroku_email: "gfr-pact-backend@guifr.com.br"
-#            procfile: "web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/tasks-backend-0.0.2-SNAPSHOT.jar"
-#            healthcheck: "https://gfr-judges-online.herokuapp.com"
-#            checkstring: "Hello World!"
-#            branch: main
-#            delay: 30
-#            rollbackonhealthcheckfailed: true
+jobs:
+  checkout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
