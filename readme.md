@@ -13,4 +13,9 @@
 -   judge
     -   [beecrowd](https://www.beecrowd.com.br/judge/en)
         - [Average 1](https://www.beecrowd.com.br/judge/en/problems/view/1005)
+
+### 3 day ( 05/01/2022)
+-   judge
+    -   [beecrowd](https://www.beecrowd.com.br/judge/en)
+        - [Average 2](https://www.beecrowd.com.br/judge/en/problems/view/1006)
             
