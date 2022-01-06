@@ -18,4 +18,5 @@
 -   judge
     -   [beecrowd](https://www.beecrowd.com.br/judge/en)
         - [Average 2](https://www.beecrowd.com.br/judge/en/problems/view/1006)
+        - [Difference](https://www.beecrowd.com.br/judge/en/problems/view/1007)
             
