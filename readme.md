@@ -19,4 +19,9 @@
     -   [beecrowd](https://www.beecrowd.com.br/judge/en)
         - [Average 2](https://www.beecrowd.com.br/judge/en/problems/view/1006)
         - [Difference](https://www.beecrowd.com.br/judge/en/problems/view/1007)
-            
+
+### 4 day ( 06/01/2022)
+-   judge
+    -   [beecrowd](https://www.beecrowd.com.br/judge/en)
+        - [Salary with Bonus](https://www.beecrowd.com.br/judge/en/problems/view/1009)
+        - [Simple Calculate](https://www.beecrowd.com.br/judge/en/problems/view/1010)
