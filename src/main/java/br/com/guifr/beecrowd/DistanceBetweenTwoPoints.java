@@ -21,17 +21,20 @@ public class DistanceBetweenTwoPoints {
 
     public double distance() {
 
-        BigDecimal operationX = new BigDecimal(p2.getX()).subtract(new BigDecimal(p1.getX()));
-        BigDecimal operationY = new BigDecimal(p2.getY()).subtract(new BigDecimal(p1.getY()));
+        BigDecimal operationX = subtractionWithPow(p2.getX(),p1.getX());
+        BigDecimal operationY = subtractionWithPow(p2.getY(),p1.getY());
 
-        BigDecimal operationFinal = operationX.pow(2).add(operationY.pow(2));
-
-        operationFinal = new BigDecimal(Math.sqrt(operationFinal.doubleValue()));
+        BigDecimal operationFinal = new BigDecimal(Math.sqrt(operationX.add(operationY).doubleValue()));
 
         operationFinal = operationFinal.setScale(4, RoundingMode.HALF_EVEN);
 
         return operationFinal.doubleValue();
 
+    }
+
+    public BigDecimal subtractionWithPow(double propP2,double propP1){
+        BigDecimal op = new BigDecimal(propP2).subtract(new BigDecimal(propP1));
+        return op.pow(2);
     }
 
     public static class Point {
