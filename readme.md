@@ -30,3 +30,4 @@
 -   judge
     -   [beecrowd](https://www.beecrowd.com.br/judge/en)
         - [Sphere](https://www.beecrowd.com.br/judge/en/problems/view/1011)
+        - [Distance Between Two Points](https://www.beecrowd.com.br/judge/en/problems/view/1015)
