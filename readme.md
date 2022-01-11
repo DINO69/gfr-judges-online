@@ -36,3 +36,9 @@
 -   judge
     -   [beecrowd](https://www.beecrowd.com.br/judge/en)
         - [Time Conversion](https://www.beecrowd.com.br/judge/en/problems/view/1019)
+
+### 7 day ( 10/01/2022)
+-   judge
+    -   [beecrowd](https://www.beecrowd.com.br/judge/en)
+        - [Banknotes](https://www.beecrowd.com.br/judge/en/problems/view/1018) 
+            - Design Patterns [chain](https://refactoring.guru/pt-br/design-patterns/chain-of-responsibility)
