@@ -42,3 +42,4 @@
     -   [beecrowd](https://www.beecrowd.com.br/judge/en)
         - [Banknotes](https://www.beecrowd.com.br/judge/en/problems/view/1018) 
             - Design Patterns [chain](https://refactoring.guru/pt-br/design-patterns/chain-of-responsibility)
+        - [Banknotes and Coins](https://www.beecrowd.com.br/judge/en/problems/view/1021)
