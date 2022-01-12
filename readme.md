@@ -43,3 +43,10 @@
         - [Banknotes](https://www.beecrowd.com.br/judge/en/problems/view/1018) 
             - Design Patterns [chain](https://refactoring.guru/pt-br/design-patterns/chain-of-responsibility)
         - [Banknotes and Coins](https://www.beecrowd.com.br/judge/en/problems/view/1021)
+
+
+### 8 day ( 11/01/2022)
+-   Add mutation and parallel tests 
+-   judge
+    -   [beecrowd](https://www.beecrowd.com.br/judge/en)
+        - [Fuel Spent](https://www.beecrowd.com.br/judge/en/problems/view/1017)
