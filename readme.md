@@ -50,3 +50,8 @@
 -   judge
     -   [beecrowd](https://www.beecrowd.com.br/judge/en)
         - [Fuel Spent](https://www.beecrowd.com.br/judge/en/problems/view/1017)
+
+### 9 day ( 13/01/2022)
+-   judge
+    -   [beecrowd](https://www.beecrowd.com.br/judge/en)
+        - [Power Crisis](https://www.beecrowd.com.br/judge/en/problems/view/1031)
