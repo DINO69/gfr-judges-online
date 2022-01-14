@@ -55,3 +55,9 @@
 -   judge
     -   [beecrowd](https://www.beecrowd.com.br/judge/en)
         - [Power Crisis](https://www.beecrowd.com.br/judge/en/problems/view/1031)
+
+### 10 day ( 14/01/2022)
+-   judge
+    -   [beecrowd](https://www.beecrowd.com.br/judge/en)
+        - [Consumption](https://www.beecrowd.com.br/judge/en/problems/view/1014)
+        - [Joseph’s Cousin](https://www.beecrowd.com.br/judge/en/problems/view/1032)
