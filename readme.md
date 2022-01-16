@@ -60,4 +60,14 @@
 -   judge
     -   [beecrowd](https://www.beecrowd.com.br/judge/en)
         - [Consumption](https://www.beecrowd.com.br/judge/en/problems/view/1014)
-        - [Joseph’s Cousin](https://www.beecrowd.com.br/judge/en/problems/view/1032)
+        - [Joseph’s Cousin](https://www.beecrowd.com.br/judge/en/problems/view/1032) - Incomplete
+
+### 11 day ( 15/01/2022)
+-   judge
+    -   [beecrowd](https://www.beecrowd.com.br/judge/en)
+        - [Joseph’s Cousin](https://www.beecrowd.com.br/judge/en/problems/view/1032) - Incomplete
+
+### 12 day ( 16/01/2022)
+-   judge
+    -   [beecrowd](https://www.beecrowd.com.br/judge/en)
+        - [Joseph’s Cousin](https://www.beecrowd.com.br/judge/en/problems/view/1032) - Finished
