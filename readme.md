@@ -71,3 +71,8 @@
 -   judge
     -   [beecrowd](https://www.beecrowd.com.br/judge/en)
         - [Joseph’s Cousin](https://www.beecrowd.com.br/judge/en/problems/view/1032) - Finished
+
+### 13 day ( 18/01/2022)
+-   judge
+    -   [beecrowd](https://www.beecrowd.com.br/judge/en)
+        - [Area](https://www.beecrowd.com.br/judge/en/problems/view/1012)
