@@ -84,4 +84,13 @@
             - Exercise very good for learn because the conditions  sequence can to take more time then other  
         - [The Greatest](https://www.beecrowd.com.br/judge/en/problems/view/1013)
         - [Interval](https://www.beecrowd.com.br/judge/en/problems/view/1037)
-            - Do Challenge without if(s) chained
+              - Do Challenge without if(s) chained
+
+### 15 day ( 20/01/2022)
+-   judge
+    -   [beecrowd](https://www.beecrowd.com.br/judge/en)
+        - [Distance](https://www.beecrowd.com.br/judge/en/problems/view/1016)
+            - very easy
+        - [Bhaskara's Formula](https://www.beecrowd.com.br/judge/en/problems/view/1036)
+            - need to refactor
+            - this is last exercise of first page level beginner
