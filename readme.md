@@ -94,3 +94,13 @@
         - [Bhaskara's Formula](https://www.beecrowd.com.br/judge/en/problems/view/1036)
             - need to refactor
             - this is last exercise of first page level beginner
+
+### 16 day ( 21/01/2022)
+-   judge
+    -   [beecrowd](https://www.beecrowd.com.br/judge/en)
+        - [Alarm Clock](https://www.beecrowd.com.br/judge/en/problems/view/1103) - incomplete
+
+### 17 day ( 23/01/2022)
+-   judge
+    -   [beecrowd](https://www.beecrowd.com.br/judge/en)
+        - [Alarm Clock](https://www.beecrowd.com.br/judge/en/problems/view/1103) - finish
