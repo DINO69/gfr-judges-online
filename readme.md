@@ -104,3 +104,8 @@
 -   judge
     -   [beecrowd](https://www.beecrowd.com.br/judge/en)
         - [Alarm Clock](https://www.beecrowd.com.br/judge/en/problems/view/1103) - finish
+
+### 18 day ( 24/01/2022)
+-   judge
+    -   [beecrowd](https://www.beecrowd.com.br/judge/en)
+        - [The Club Ballroom](https://www.beecrowd.com.br/judge/en/problems/view/1086) - Time limit exceeded
