@@ -109,3 +109,14 @@
 -   judge
     -   [beecrowd](https://www.beecrowd.com.br/judge/en)
         - [The Club Ballroom](https://www.beecrowd.com.br/judge/en/problems/view/1086) - Time limit exceeded
+
+### 19 day ( 26/01/2022)
+-   judge
+    -   [beecrowd](https://www.beecrowd.com.br/judge/en)
+        - [Queen](https://www.beecrowd.com.br/judge/en/problems/view/1087) - incomplete
+
+
+### 20 day ( 26/01/2022)
+-   judge
+    -   [beecrowd](https://www.beecrowd.com.br/judge/en)
+        - [Queen](https://www.beecrowd.com.br/judge/en/problems/view/1087) - incomplete
