@@ -131,14 +131,14 @@ public class QueenTest {
     @Test
     @DisplayName("Return false when ask can go to position x y")
     public void test15() {
-        boolean actual = Queen.started(5, 5).endedIn(4, 4).canGoTo(4,4);
+        boolean actual = Queen.started(5, 5).endedIn(4, 4).canGoTo(4,4, 0);
         assertFalse(actual);
     }
 
     @Test
     @DisplayName("Return false when ask can go to position x y")
     public void test16() {
-        boolean actual = Queen.started(5, 5).endedIn(4, 4).canGoTo(4,3);
+        boolean actual = Queen.started(5, 5).endedIn(4, 4).canGoTo(4,3, 0);
         assertTrue(actual);
     }
 
