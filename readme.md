@@ -125,3 +125,8 @@
 -   judge
     -   [beecrowd](https://www.beecrowd.com.br/judge/en)
         - [Queen](https://www.beecrowd.com.br/judge/en/problems/view/1087) - incomplete
+
+### 22 day ( 29/01/2022)
+-   judge
+    -   [beecrowd](https://www.beecrowd.com.br/judge/en)
+        - [Queen](https://www.beecrowd.com.br/judge/en/problems/view/1087) - incomplete

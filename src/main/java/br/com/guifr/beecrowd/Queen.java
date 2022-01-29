@@ -20,7 +20,7 @@ public class Queen {
     }
 
     public Queen endedIn(int x, int y) {
-        chessBoard[x][y] = 1;
+//        chessBoard[x][y] = 1;
         x2 = x;
         y2 = y;
         return this;
@@ -32,14 +32,13 @@ public class Queen {
             return 0;
         }
 
-
         return search(x1, y1, 0);
     }
 
     protected int search(int xStarted, int yStarted, int stepsTaken) {
         stepsTaken++;
 
-//        chessBoard[xStarted][yStarted] = stepsTaken;
+        chessBoard[xStarted][yStarted] = stepsTaken;
         printBoard();
 
         Integer stepsTaken1 = xToRight(xStarted, yStarted, stepsTaken);
@@ -69,142 +68,66 @@ public class Queen {
         return minimumSteps;
     }
 
-    private Integer diagonalXToLeftYUp(int xStarted, int yStarted, int stepsTaken) {
-        if (alreadySearchEndPosition) {
-            return stepsTaken;
-        }
-        int y;
-        y = yStarted + 1;
-        for (int x = xStarted - 1; x >= 1; x--, y--) {
-            if (y == chessBoard.length) {
-                break;
-            }
-            if (searchEndPositionQueen(x, y, stepsTaken)) {
-                return stepsTaken;
-            }
-            if (canGoTo(x, y, stepsTaken))
-                search(x, y, stepsTaken);
-        }
-        return null;
-    }
-
-    private Integer diagonalXToLeftYDown(int xStarted, int yStarted, int stepsTaken) {
-        if (alreadySearchEndPosition) {
-            return stepsTaken;
-        }
-        int y;
-        y = yStarted - 1;
-        for (int x = xStarted - 1; x >= 1; x--, y--) {
-            if (y == 0) {
-                break;
-            }
-            if (searchEndPositionQueen(x, y, stepsTaken)) {
-                return stepsTaken;
-            }
-            if (canGoTo(x, y, stepsTaken))
-                search(x, y, stepsTaken);
-        }
-        return null;
-    }
-
-    private Integer diagonalXToRightYDown(int xStarted, int yStarted, int stepsTaken) {
-        if (alreadySearchEndPosition) {
-            return stepsTaken;
-        }
-        int y;
-        y = yStarted - 1;
-        for (int x = xStarted + 1; x < chessBoard.length; x++, y++) {
-            if (y == 0) {
-                break;
-            }
-            if (searchEndPositionQueen(x, y, stepsTaken)) {
-                return stepsTaken;
-            }
-            if (canGoTo(x, y, stepsTaken))
-                search(x, y, stepsTaken);
-        }
-        return null;
-    }
-
-    private Integer diagonalXToRightYUp(int xStarted, int yStarted, int stepsTaken) {
-        if (alreadySearchEndPosition) {
-            return stepsTaken;
-        }
-        int y = yStarted + 1;
-        for (int x = xStarted + 1; x < chessBoard.length; x++, y++) {
-            if (y == chessBoard.length) {
-                break;
-            }
-            if (searchEndPositionQueen(x, y, stepsTaken)) {
-                return stepsTaken;
-            }
-            if (canGoTo(x, y, stepsTaken))
-                search(x, y, stepsTaken);
-        }
-        return null;
-    }
-
-    private Integer yToDown(int xStarted, int yEnded, int stepsTaken) {
-        if (alreadySearchEndPosition) {
-            return stepsTaken;
-        }
-        for (int y = yEnded - 1; y >= 1; y--) {
-            if (searchEndPositionQueen(xStarted, y, stepsTaken)) {
-                return stepsTaken;
-            }
-            if (canGoTo(xStarted, y, stepsTaken))
-                search(xStarted, y, stepsTaken);
-        }
-        return null;
-    }
-
-    private Integer yToUp(int xStarted, int yEnded, int stepsTaken) {
-        if (alreadySearchEndPosition) {
-            return stepsTaken;
-        }
-        for (int y = yEnded + 1; y < chessBoard.length; y++) {
-            if (searchEndPositionQueen(xStarted, y, stepsTaken)) {
-                return stepsTaken;
-            }
-            if (canGoTo(xStarted, y, stepsTaken))
-                search(xStarted, y, stepsTaken);
-        }
-        return null;
-    }
-
-    private Integer xToLeft(int xStarted, int yStarted, int stepsTaken) {
-        if (alreadySearchEndPosition) {
-            return stepsTaken;
-        }
-        for (int x = xStarted - 1; x >= 1; x--) {
-            if (searchEndPositionQueen(x, yStarted, stepsTaken)) {
-                return stepsTaken;
-            }
-            if (canGoTo(x, yStarted, stepsTaken))
-                search(x, yStarted, stepsTaken);
-        }
-        return null;
-    }
-
-    private Integer xToRight(int xStarted, int yStarted, int stepsTaken) {
-        return move(new AxlePlus(xStarted), new AxleNeutral(yStarted),stepsTaken);
-    }
-
     private Integer move(Axle xStarted, Axle yStarted, int stepsTaken) {
         xStarted.execute();
         yStarted.execute();
         while(xStarted.canExecute() && yStarted.canExecute() ){
+            //TODO colocar uma validação sobre poder ir para a direção
+            if(willReturn(xStarted.getAxle(), yStarted.getAxle(),stepsTaken)){
+                break;
+            }
+            if(alreadySearchEndPosition){
+                if (stepsTaken > minimumSteps){
+                    break;
+                }
+            }
             if (searchEndPositionQueen(xStarted.getAxle(), yStarted.getAxle(), stepsTaken)) {
                 return stepsTaken;
             }
-            chessBoard[xStarted.getAxle()][yStarted.getAxle()] = stepsTaken;
-            if (canGoTo(xStarted.getAxle(), yStarted.getAxle(),stepsTaken)) {
+            if (canGoTo(xStarted.getAxle(), yStarted.getAxle(), stepsTaken)) {
                 search(xStarted.getAxle(), yStarted.getAxle(), stepsTaken);
             }
+//            chessBoard[xStarted.getAxle()][yStarted.getAxle()] = stepsTaken;
             xStarted.execute();
             yStarted.execute();
         }
         return null;
+    }
+
+    private boolean willReturn(int xStarted, int yStarted,int stepsTaken) {
+        return stepsTaken > chessBoard[xStarted][yStarted] && chessBoard[xStarted][yStarted] != 0;
+    }
+
+    private Integer diagonalXToLeftYUp(int xStarted, int yStarted, int stepsTaken) {
+        return move(new AxleMinus(xStarted), new AxlePlus(yStarted),stepsTaken);
+    }
+
+    private Integer diagonalXToLeftYDown(int xStarted, int yStarted, int stepsTaken) {
+        return move(new AxleMinus(xStarted), new AxleMinus(yStarted),stepsTaken);
+    }
+
+    private Integer diagonalXToRightYDown(int xStarted, int yStarted, int stepsTaken) {
+        return move(new AxlePlus(xStarted), new AxleMinus(yStarted),stepsTaken);
+    }
+
+    private Integer diagonalXToRightYUp(int xStarted, int yStarted, int stepsTaken) {
+        return move(new AxlePlus(xStarted), new AxlePlus(yStarted),stepsTaken);
+    }
+
+    private Integer yToDown(int xStarted, int yStarted, int stepsTaken) {
+        return move(new AxleNeutral(xStarted), new AxleMinus(yStarted),stepsTaken);
+    }
+
+    private Integer yToUp(int xStarted, int yStarted, int stepsTaken) {
+        return move(new AxleNeutral(xStarted), new AxlePlus(yStarted),stepsTaken);
+    }
+
+    private Integer xToLeft(int xStarted, int yStarted, int stepsTaken) {
+        return move(new AxleMinus(xStarted), new AxleNeutral(yStarted),stepsTaken);
+    }
+
+    private Integer xToRight(int xStarted, int yStarted, int stepsTaken) {
+        return move(new AxlePlus(xStarted), new AxleNeutral(yStarted),stepsTaken);
     }
 
     public boolean searchEndPositionQueen(int x, int y, int steps) {
@@ -215,23 +138,25 @@ public class Queen {
                 minimumSteps = steps;
             }
         }
-        return alreadySearchEndPosition || aux;
+        return aux;
     }
 
     public boolean canGoTo(int x, int y, int stepsTaken) {
-        printBoard();
-        return chessBoard[x][y] == 0;
+//        printBoard();
+        return chessBoard[x][y] == 0 || chessBoard[x][y] > stepsTaken;
     }
 
     public void printBoard() {
-        System.out.println("*INICIO**************************************");
-        for (int x = 1; x <= 8; x++) {
-            for (int y = 1; y <= 8; y++) {
-                System.out.print(chessBoard[x][y]);
-            }
-            System.out.println();
-        }
-        System.out.println("*FIM**************************************");
+        //TODO comentarios
+
+//        System.out.println("*INICIO**************************************");
+//        for (int x = 1; x <= 8; x++) {
+//            for (int y = 1; y <= 8; y++) {
+//                System.out.printf("%3d",chessBoard[x][y]);
+//            }
+//            System.out.println();
+//        }
+//        System.out.println("*FIM**************************************");
     }
 
     public abstract class Axle{
