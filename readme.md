@@ -130,3 +130,10 @@
 -   judge
     -   [beecrowd](https://www.beecrowd.com.br/judge/en)
         - [Queen](https://www.beecrowd.com.br/judge/en/problems/view/1087) - incomplete
+
+
+### 23 day ( 31/01/2022)
+-   judge
+    -   [beecrowd](https://www.beecrowd.com.br/judge/en)
+        - [Queen](https://www.beecrowd.com.br/judge/en/problems/view/1087) - Finished
+            - Need refactor because method xToRight and yToUp receive improve and other no

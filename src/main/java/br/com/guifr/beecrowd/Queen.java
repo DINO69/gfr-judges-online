@@ -1,6 +1,12 @@
 package br.com.guifr.beecrowd;
 
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.Set;
+
 public class Queen {
+
+    private static boolean PRINT = false;
 
     private int x1, x2, y1, y2;
 
@@ -9,10 +15,29 @@ public class Queen {
 
     private int[][] chessBoard = new int[9][9];
 
+    private int howManyMoves = 0;
+    private int howManyIteration = 0;
+
     public Queen(int x, int y) {
         x1 = x;
         y1 = y;
         chessBoard[x][y] = 1;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        while(!s.equals("0 0 0 0")){
+            String[] values = s.split(" ");
+            int x1 = Integer.valueOf(values[0]);
+            int y1 = Integer.valueOf(values[1]);
+            int x2 = Integer.valueOf(values[2]);
+            int y2 = Integer.valueOf(values[3]);
+
+            System.out.println(started(x1,y1).endedIn(x2,y2).howMoves());
+
+            s = sc.nextLine();
+        }
     }
 
     public static Queen started(int x, int y) {
@@ -39,8 +64,9 @@ public class Queen {
         stepsTaken++;
 
         chessBoard[xStarted][yStarted] = stepsTaken;
-        printBoard();
-
+        howManyIteration++;
+//        printBoard();
+//
         Integer stepsTaken1 = xToRight(xStarted, yStarted, stepsTaken);
 //        if (stepsTaken1 != null) return stepsTaken1;
 
@@ -84,6 +110,7 @@ public class Queen {
             if (searchEndPositionQueen(xStarted.getAxle(), yStarted.getAxle(), stepsTaken)) {
                 return stepsTaken;
             }
+
             if (canGoTo(xStarted.getAxle(), yStarted.getAxle(), stepsTaken)) {
                 search(xStarted.getAxle(), yStarted.getAxle(), stepsTaken);
             }
@@ -95,7 +122,7 @@ public class Queen {
     }
 
     private boolean willReturn(int xStarted, int yStarted,int stepsTaken) {
-        return stepsTaken > chessBoard[xStarted][yStarted] && chessBoard[xStarted][yStarted] != 0;
+        return stepsTaken >= chessBoard[xStarted][yStarted] && chessBoard[xStarted][yStarted] != 0;
     }
 
     private Integer diagonalXToLeftYUp(int xStarted, int yStarted, int stepsTaken) {
@@ -119,7 +146,15 @@ public class Queen {
     }
 
     private Integer yToUp(int xStarted, int yStarted, int stepsTaken) {
-        return move(new AxleNeutral(xStarted), new AxlePlus(yStarted),stepsTaken);
+        Set<Integer> numbers = new HashSet<>();
+//        numbers.add(Math.min(x2,y2));
+        numbers.add(y2);
+        numbers.add(yStarted);
+
+        Integer max = numbers.stream().max(Integer::compareTo).get();
+
+        return max == yStarted && numbers.size() == 2 ? null : move(new AxleNeutral(xStarted), new AxlePlus(max - 1),stepsTaken);
+        //return move(new AxleNeutral(xStarted), new AxlePlus(yStarted),stepsTaken);
     }
 
     private Integer xToLeft(int xStarted, int yStarted, int stepsTaken) {
@@ -127,7 +162,15 @@ public class Queen {
     }
 
     private Integer xToRight(int xStarted, int yStarted, int stepsTaken) {
-        return move(new AxlePlus(xStarted), new AxleNeutral(yStarted),stepsTaken);
+        Set<Integer> numbers = new HashSet<>();
+//        numbers.add(Math.min(x2,y2));
+        numbers.add(x2);
+        numbers.add(xStarted);
+
+        Integer max = numbers.stream().max(Integer::compareTo).get();
+
+        return max == xStarted && numbers.size() == 3 ? null : move(new AxlePlus(max - 1), new AxleNeutral(yStarted),stepsTaken);
+//        return move(new AxlePlus(xStarted), new AxleNeutral(yStarted),stepsTaken);
     }
 
     public boolean searchEndPositionQueen(int x, int y, int steps) {
@@ -143,20 +186,35 @@ public class Queen {
 
     public boolean canGoTo(int x, int y, int stepsTaken) {
 //        printBoard();
-        return chessBoard[x][y] == 0 || chessBoard[x][y] > stepsTaken;
+        return (chessBoard[x][y] == 0 || chessBoard[x][y] > stepsTaken) && possiblePosition(x,y);
+    }
+
+    private boolean possiblePosition(int x1, int y1) {
+        Set<Integer> numeros = new HashSet<>();
+        numeros.add(x1);
+        numeros.add(y1);
+        numeros.add(x2);
+        numeros.add(y2);
+        return numeros.size() < (x1 == y1 ? 3 : 4);
     }
 
     public void printBoard() {
         //TODO comentarios
 
-//        System.out.println("*INICIO**************************************");
-//        for (int x = 1; x <= 8; x++) {
-//            for (int y = 1; y <= 8; y++) {
-//                System.out.printf("%3d",chessBoard[x][y]);
-//            }
-//            System.out.println();
-//        }
-//        System.out.println("*FIM**************************************");
+        if(PRINT) {
+
+            howManyMoves++;
+            System.out.println("*INICIO**************************************");
+            System.out.printf("*howManyMoves = %d**************************************\n", howManyMoves);
+            System.out.printf("*howManyIteration = %d**************************************\n", howManyIteration);
+            for (int x = 1; x <= 8; x++) {
+                for (int y = 1; y <= 8; y++) {
+                    System.out.printf("%3d", chessBoard[x][y]);
+                }
+                System.out.println();
+            }
+            System.out.println("*FIM**************************************");
+        }
     }
 
     public abstract class Axle{
