@@ -27,8 +27,7 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: paths
-          path:
-            - /home/runner/work/gfr-judges-online/gfr-judges-online
+          path: home/runner/work/gfr-judges-online/gfr-judges-online
 
   test:
     runs-on: ubuntu-latest
@@ -37,8 +36,7 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: paths
-          path:
-            - /home/runner/work/gfr-judges-online/gfr-judges-online
+          path: home/runner/work/gfr-judges-online/gfr-judges-online
 
       - name: Clean
         run: mvn clean
