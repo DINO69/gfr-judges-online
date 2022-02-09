@@ -5,6 +5,11 @@
 
 [![GFR-JUDGES-ONLINE](https://github.com/DINO69/gfr-judges-online/actions/workflows/maven.yml/badge.svg)](https://github.com/DINO69/gfr-judges-online/actions/workflows/maven.yml)
 
+[Pit Test Coverage Report
+](https://dino69.github.io/gfr-judges-online/index.html)
+
+## January
+
 ### 1 day ( 03/01/2022)
 -   judge 
     -   [beecrowd](https://www.beecrowd.com.br/judge/en)
@@ -140,3 +145,20 @@
     -   [beecrowd](https://www.beecrowd.com.br/judge/en)
         - [Queen](https://www.beecrowd.com.br/judge/en/problems/view/1087) - Finished
             - Need refactor because method xToRight and yToUp receive improve and other no
+    
+
+## February
+
+### poc with cypress
+Project<br/>
+Dashboard
+
+### cypress project with run in pipeline and environment variables
+Project<br/>
+Dashboard
+
+### poc mysql + xmysql for management of the test mass to project
+Project<br/>
+Videos
+
+### fix pipeline this project
