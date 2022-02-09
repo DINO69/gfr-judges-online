@@ -24,15 +24,15 @@ jobs:
       - name: Build with Maven
         run: mvn -B package --file pom.xml -DskipTests=true
 
-#  test:
-#    runs-on: ubuntu-latest
-#    needs: [build]
-#    steps:
-#      - name: Clean
-#        run: mvn clean
-#
-#      - name: Tests
-#        run: mvn test
+  test:
+    runs-on: ubuntu-latest
+    needs: [build]
+    steps:
+      - name: Clean
+        run: mvn clean
+
+      - name: Tests
+        run: mvn test
 #
 #  test_mutation:
 #    runs-on: ubuntu-latest
