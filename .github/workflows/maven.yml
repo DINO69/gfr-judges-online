@@ -29,7 +29,6 @@ jobs:
           name: paths
           path: |
             /home/runner/work/gfr-judges-online
-            /opt/hostedtoolcache
 
   test:
     runs-on: ubuntu-latest
@@ -40,7 +39,6 @@ jobs:
           name: paths
           path: |
             /home/runner/work/gfr-judges-online
-            /opt/hostedtoolcache
 
 
       - name: Clean
