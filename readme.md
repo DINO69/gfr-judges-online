@@ -1,6 +1,9 @@
 
 
 ## 365 days with programming
+<br/>
+
+[![GFR-JUDGES-ONLINE](https://github.com/DINO69/gfr-judges-online/actions/workflows/maven.yml/badge.svg)](https://github.com/DINO69/gfr-judges-online/actions/workflows/maven.yml)
 
 ### 1 day ( 03/01/2022)
 -   judge 
