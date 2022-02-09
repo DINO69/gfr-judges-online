@@ -28,7 +28,7 @@ jobs:
         with:
           name: paths
           path:
-            - .
+            - ./
 
   test:
     runs-on: ubuntu-latest
@@ -38,7 +38,7 @@ jobs:
         with:
           name: paths
           path:
-            - .
+            - ./
 
       - name: Clean
         run: mvn clean
