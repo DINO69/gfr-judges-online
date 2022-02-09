@@ -35,10 +35,10 @@ jobs:
     needs: [build]
     steps:
       - uses: actions/download-artifact@v2
-          with:
-            name: paths
-            path:
-              - .
+        with:
+          name: paths
+          path:
+            - .
 
       - name: Clean
         run: mvn clean
