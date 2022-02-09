@@ -28,7 +28,7 @@ jobs:
         with:
           name: paths
           path: |
-            /home/runner
+            /home/runner/work/gfr-judges-online
             /opt/hostedtoolcache
 
   test:
@@ -39,7 +39,7 @@ jobs:
         with:
           name: paths
           path: |
-            /home/runner
+            /home/runner/work/gfr-judges-online
             /opt/hostedtoolcache
 
 
