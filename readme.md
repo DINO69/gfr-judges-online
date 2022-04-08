@@ -180,3 +180,9 @@ This month I want do 30 challenge
         - [Sales by Match](https://www.hackerrank.com/challenges/sock-merchant/problem?h_l=interview&isFullScreen=true&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=warmup)
             - I don't know why he method receive the list size, I think I could use for improve the Algorithms perform
         - [Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup&h_r=next-challenge&h_v=zen)
+
+### 2 day ( 07/04/2022)
+-   judge
+    -   [hackerrank](https://www.hackerrank.com)
+        - [Left Rotation](https://www.hackerrank.com/challenges/array-left-rotation/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=7-day-campaign)
+        - [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
