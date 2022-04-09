@@ -191,3 +191,8 @@ This month I want do 30 challenge
 -   judge
     -   [hackerrank](https://www.hackerrank.com)
         - [Repeated String](https://www.hackerrank.com/challenges/repeated-string/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
+
+### 4 day ( 09/04/2022)
+-   judge
+    -   [hackerrank](https://www.hackerrank.com)
+        - [New Year Chaos](https://www.hackerrank.com/challenges/new-year-chaos/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays&h_r=next-challenge&h_v=zen)
