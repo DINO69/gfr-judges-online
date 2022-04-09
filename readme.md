@@ -186,3 +186,8 @@ This month I want do 30 challenge
     -   [hackerrank](https://www.hackerrank.com)
         - [Left Rotation](https://www.hackerrank.com/challenges/array-left-rotation/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=7-day-campaign)
         - [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
+
+### 3 day ( 08/04/2022)
+-   judge
+    -   [hackerrank](https://www.hackerrank.com)
+        - [Repeated String](https://www.hackerrank.com/challenges/repeated-string/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup)
