@@ -213,3 +213,9 @@ Videos
 -   judge
     -   [hackerrank](https://www.hackerrank.com)
         - [Hash Tables: Ransom Note](https://www.hackerrank.com/challenges/ctci-ransom-note/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps)
+
+
+### 7 day ( 13/04/2022)
+-   judge
+    -   [hackerrank](https://www.hackerrank.com)
+        - [Two Strings](https://www.hackerrank.com/challenges/two-strings/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps)
