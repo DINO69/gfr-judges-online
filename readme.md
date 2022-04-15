@@ -224,3 +224,12 @@ Videos
 -   judge
     -   [hackerrank](https://www.hackerrank.com)
         - [Sherlock and Anagrams](https://www.hackerrank.com/challenges/sherlock-and-anagrams/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps&h_r=next-challenge&h_v=zen)
+
+
+### 8 day ( 15/04/2022)
+-   judge
+    -   [hackerrank](https://www.hackerrank.com)
+        - [Print the Elements of a Linked List](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list/problem?h_r=profile)
+            - This test don't have unit test in project
+        - [Count Triplets](https://www.hackerrank.com/challenges/count-triplets-1/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps)
+            - This test not passed in all test cases
