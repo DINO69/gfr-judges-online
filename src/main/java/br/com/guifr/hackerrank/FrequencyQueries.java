@@ -35,7 +35,6 @@ public class FrequencyQueries {
 
         }
 
-
         return result;
     }
 

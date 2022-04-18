@@ -1,14 +1,11 @@
 package br.com.guifr.hackerrank;
 
-import com.sun.deploy.util.JVMParameters;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class FrequencyQueriesTest {
 
@@ -213,9 +210,6 @@ class FrequencyQueriesTest {
             Assertions.assertEquals(42, actual.size(), "Size is 42");
             Assertions.assertEquals(30, actual.stream().filter(n->n==0).count(), "Quantity 0 is 30");
             Assertions.assertEquals(12, actual.stream().filter(n->n==1).count(),"Quantity 1 is 12");
-            /*Assertions.assertEquals(0, actual.get(0));
-            Assertions.assertEquals(1, actual.get(1));
-            Assertions.assertEquals(1, actual.get(2));*/
         });
     }
 
