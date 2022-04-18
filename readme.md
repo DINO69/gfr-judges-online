@@ -177,6 +177,7 @@ Videos
 - Create two course
     - Katalon
     - How do test API passing Swagger - Postman - RestAssured
+- Create prove concept about [math algorithms](https://www.youtube.com/watch?v=5OBZYhJnne0&list=PL2_aWCzGMAwLL-mEB4ef20f3iqWMGWa25)
 
 
 ### 1 day ( 06/04/2022)
@@ -233,3 +234,8 @@ Videos
             - This test don't have unit test in project
         - [Count Triplets](https://www.hackerrank.com/challenges/count-triplets-1/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps)
             - This test not passed in all test cases
+
+### 9 day ( 17/04/2022)
+-   judge
+    -   [hackerrank](https://www.hackerrank.com)
+        - [Frequency Queries](https://www.hackerrank.com/challenges/frequency-queries/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps)
