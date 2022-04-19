@@ -239,3 +239,8 @@ Videos
 -   judge
     -   [hackerrank](https://www.hackerrank.com)
         - [Frequency Queries](https://www.hackerrank.com/challenges/frequency-queries/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=dictionaries-hashmaps)
+
+### 10 day ( 19/04/2022)
+-   judge
+    -   [hackerrank](https://www.hackerrank.com)
+        - [Sorting: Bubble Sort](https://www.hackerrank.com/challenges/ctci-bubble-sort/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=sorting)
