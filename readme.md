@@ -282,6 +282,12 @@ Videos
         - [Balanced Brackets](https://www.hackerrank.com/challenges/balanced-brackets/problem)
         - [Maximum Element](https://www.hackerrank.com/challenges/maximum-element/problem?isFullScreen=true)
 
+### 12 day ( 21/04/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Height of a Binary Tree](https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem)
+
 ## May
 
 - Study and do exercise about this subject
@@ -297,11 +303,14 @@ Videos
     - Stacks/Queues
     - Bit Manipulation
     
+- Challenges
+    - [data-structures](https://www.hackerrank.com/domains/data-structures)
+    
 - Courses
-    - https://www.udemy.com/course/introduction-to-data-structures-algorithms-in-java/#/)
+    - [introduction-to-data-structures-algorithms-in-java](https://www.udemy.com/course/introduction-to-data-structures-algorithms-in-java/#/)
     
 - Books 
-    - https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X
+    - [Cracking-Coding-Interview-Programming-Questions](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X)
     
 - Videos
-    - https://www.youtube.com/user/mycodeschool
+    - [mycodeschool](https://www.youtube.com/user/mycodeschool)
