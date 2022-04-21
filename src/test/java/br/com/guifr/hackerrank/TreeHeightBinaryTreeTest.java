@@ -1,6 +1,6 @@
 package br.com.guifr.hackerrank;
 
-import br.com.guifr.hackerrank.TreeHeightBinaryTree.Node;
+import br.com.guifr.hackerrank.Trees.Node;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -19,7 +19,7 @@ class TreeHeightBinaryTreeTest {
         List<Integer> nodes = Arrays.asList(3,1,7,5,4);
 
         for(Integer node : nodes){
-            head = TreeHeightBinaryTree.insert(head,node);
+            head = Trees.insert(head,node);
         }
 
         int actual = TreeHeightBinaryTree.height(head);
@@ -34,7 +34,7 @@ class TreeHeightBinaryTreeTest {
         List<Integer> nodes = Arrays.asList(3, 5, 2, 1, 4, 6, 7);
 
         for(Integer node : nodes){
-            head = TreeHeightBinaryTree.insert(head,node);
+            head = Trees.insert(head,node);
         }
 
         int actual = TreeHeightBinaryTree.height(head);
@@ -49,7 +49,7 @@ class TreeHeightBinaryTreeTest {
         List<Integer> nodes = Arrays.asList(15);
 
         for(Integer node : nodes){
-            head = TreeHeightBinaryTree.insert(head,node);
+            head = Trees.insert(head,node);
         }
 
         int actual = TreeHeightBinaryTree.height(head);
