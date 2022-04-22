@@ -286,7 +286,18 @@ Videos
 
 - judge
     - [hackerrank](https://www.hackerrank.com)
-        - [Height of a Binary Tree](https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem)
+        - [Tree : Height of a Binary Tree](https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem)
+
+### 13 day ( 22/04/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Tree : Top View](https://www.hackerrank.com/challenges/tree-top-view/problem)
+            - Create 4 solutions
+                - With Vertical order Traversal
+                - Calculation distance to head
+                - With level order traversal ( min and max find level) (Without map)
+                - With min value without sorting hashmap keys
 
 ## May
 
