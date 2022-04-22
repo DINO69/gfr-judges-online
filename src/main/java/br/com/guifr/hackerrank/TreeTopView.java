@@ -1,8 +1,6 @@
 package br.com.guifr.hackerrank;
 
 import br.com.guifr.hackerrank.Trees.Node;
-import org.jetbrains.annotations.NotNull;
-
 import java.util.*;
 
 import static java.lang.Math.min;
@@ -175,7 +173,6 @@ public class TreeTopView {
         return sResult.substring(1);
     }
 
-    @NotNull
     private static String valuesOrderLevel(Map topViewLevel) {
 
         StringBuilder result = new StringBuilder();
