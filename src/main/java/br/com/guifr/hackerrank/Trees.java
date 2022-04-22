@@ -1,6 +1,17 @@
 package br.com.guifr.hackerrank;
 
+import java.util.List;
+
 public class Trees {
+
+    public static Node inserts(Node node, List<Integer> asList) {
+
+        for(Integer number : asList){
+            node = insert(node,number);
+        }
+
+        return node;
+    }
 
     static class Node {
         Node left;
