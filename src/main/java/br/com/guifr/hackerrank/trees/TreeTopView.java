@@ -1,6 +1,6 @@
-package br.com.guifr.hackerrank;
+package br.com.guifr.hackerrank.trees;
 
-import br.com.guifr.hackerrank.Trees.Node;
+import br.com.guifr.hackerrank.trees.Trees.Node;
 import java.util.*;
 
 import static java.lang.Math.min;

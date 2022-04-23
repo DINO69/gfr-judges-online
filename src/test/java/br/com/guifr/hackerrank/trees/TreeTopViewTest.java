@@ -1,6 +1,6 @@
-package br.com.guifr.hackerrank;
+package br.com.guifr.hackerrank.trees;
 
-import br.com.guifr.hackerrank.Trees.Node;
+import br.com.guifr.hackerrank.trees.Trees.Node;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

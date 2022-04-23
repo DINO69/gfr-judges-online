@@ -1,4 +1,4 @@
-package br.com.guifr.hackerrank;
+package br.com.guifr.hackerrank.trees;
 
 import java.util.List;
 
