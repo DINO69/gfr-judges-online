@@ -299,6 +299,12 @@ Videos
                 - With level order traversal ( min and max find level) (Without map)
                 - With min value without sorting hashmap keys
 
+### 14 day ( 23/04/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Tree: Level Order Traversal](https://www.hackerrank.com/challenges/tree-level-order-traversal/problem?utm_campaign=challenge-recommendation&utm_medium=email&utm_source=24-hour-campaign)
+
 ## May
 
 - Study and do exercise about this subject
