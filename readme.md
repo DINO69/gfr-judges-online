@@ -311,6 +311,13 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Find the Running Median](https://www.hackerrank.com/challenges/find-the-running-median/problem)
 
+### 16 day ( 26/04/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Tree: Preorder Traversal](https://www.hackerrank.com/challenges/tree-preorder-traversal/problem)
+        - [Tree: Postorder Traversal](https://www.hackerrank.com/challenges/tree-postorder-traversal/problem)
+
 ## May
 
 - Study and do exercise about this subject
