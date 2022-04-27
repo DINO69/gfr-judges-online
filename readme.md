@@ -199,8 +199,7 @@ Videos
 - Create two course
     - Katalon
     - How do test API passing Swagger - Postman - RestAssured
-- Create prove concept
-  about [math algorithms](https://www.youtube.com/watch?v=5OBZYhJnne0&list=PL2_aWCzGMAwLL-mEB4ef20f3iqWMGWa25)
+- Create prove concept about [math algorithms](https://www.youtube.com/watch?v=5OBZYhJnne0&list=PL2_aWCzGMAwLL-mEB4ef20f3iqWMGWa25)
 
 ### 1 day ( 06/04/2022)
 
@@ -318,6 +317,12 @@ Videos
         - [Tree: Preorder Traversal](https://www.hackerrank.com/challenges/tree-preorder-traversal/problem)
         - [Tree: Postorder Traversal](https://www.hackerrank.com/challenges/tree-postorder-traversal/problem)
 
+### 17 day ( 27/04/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Tree: Inorder Traversal](https://www.hackerrank.com/challenges/tree-inorder-traversal/problem)
+
 ## May
 
 - Study and do exercise about this subject
@@ -326,7 +331,17 @@ Videos
     - Big O Notation
     - Hash Tables
     - Object Oriented Design/Systems Design
-    - Algorithms: Breadth First Search/Depth First Search, Binary Search, Merge Sort and Quick Sort
+    - Algorithms: 
+        - Breadth First Search
+        - Depth First Search
+        - Binary Search
+          - Implementation
+          - Find First / Find Last
+          - Count Occurrences
+          - How many times is a sorted array rotate
+          - Search element in a circular sorted array
+        - Merge Sort
+        - Quick Sort
     - Arrays
     - Recursion
     - Linked Lists
