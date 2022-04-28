@@ -331,6 +331,8 @@ Videos
         - [Swap Nodes :Algo](https://www.hackerrank.com/challenges/swap-nodes-algo/problem)
         - [Arrays - DS](https://www.hackerrank.com/challenges/arrays-ds/problem)
             - [Java Program to Reverse a List](https://www.geeksforgeeks.org/java-program-to-reverse-a-list/#:~:text=reverse()%20method%20is%20a,list%20passed%20as%20an%20argument.)
+        - [Dynamic Array](https://www.hackerrank.com/challenges/dynamic-array/problem)
+            - [OPERADORES BIT A BIT EM JAVA](https://acervolima.com/operadores-bit-a-bit-em-java/#:~:text=Operadores%20bit%20a%20bit%20s%C3%A3o,consulta%20da%20%C3%A1rvore%20indexada%20bin%C3%A1ria.)
     
 
 ## May
