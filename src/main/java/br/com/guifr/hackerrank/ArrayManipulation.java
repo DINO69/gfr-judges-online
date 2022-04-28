@@ -15,24 +15,26 @@ public class ArrayManipulation {
         return new ArrayManipulation(queries);
     }
 
-    //TODO -> algorithm don't passed in all test in hackerrank
     public long maximumValue(int n) {
 
         long[] array = new long[n + 1];
 
-        long max = Long.MIN_VALUE;
-
         for(List<Integer> queue : queries) {
-            for(int i = queue.get(0); i <=queue.get(1);i++){
-                array[i] = array[i]+queue.get(2);
-                max = Math.max(max,array[i]);
-            }
+            int a = queue.get(0);
+            int b = queue.get(1);
+            int k = queue.get(2);
+            array[a -1] += k;
+            array[b] -= k;
         }
 
-        max = Arrays.stream(array)
-                .max()
-                .getAsLong();
+        long max = 0;
+        long sum = 0;
+        for(long position : array) {
+            sum += position;
+            max = Math.max(max,sum);
+        }
 
         return max;
+
     }
 }
