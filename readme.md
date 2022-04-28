@@ -329,6 +329,9 @@ Videos
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Swap Nodes :Algo](https://www.hackerrank.com/challenges/swap-nodes-algo/problem)
+        - [Arrays - DS](https://www.hackerrank.com/challenges/arrays-ds/problem)
+            - [Java Program to Reverse a List](https://www.geeksforgeeks.org/java-program-to-reverse-a-list/#:~:text=reverse()%20method%20is%20a,list%20passed%20as%20an%20argument.)
+    
 
 ## May
 
