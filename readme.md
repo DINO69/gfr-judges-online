@@ -322,6 +322,7 @@ Videos
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Tree: Inorder Traversal](https://www.hackerrank.com/challenges/tree-inorder-traversal/problem)
+        - [Binary Search Tree : Lowest Common Ancestor](https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem)
 
 ## May
 
