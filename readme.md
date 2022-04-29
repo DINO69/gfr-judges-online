@@ -337,7 +337,13 @@ Videos
         - [Array Manipulation](https://www.hackerrank.com/challenges/crush/problem)
             - Making pass in all test
         - [Queue using Two Stacks](https://www.hackerrank.com/challenges/queue-using-two-stacks/problem)
-    
+
+### 19 day ( 29/04/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Castle on the Grid](https://www.hackerrank.com/challenges/castle-on-the-grid/problem)
+
 
 ## May
 
