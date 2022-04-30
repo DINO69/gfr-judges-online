@@ -194,7 +194,7 @@ Videos
 
 ## April
 
-- This month I want do 30 challenge
+- :white_check_mark: This month I want do 30 challenge
 - Finish read Lean Inception Book
 - Create two course
     - Katalon
@@ -206,7 +206,6 @@ Videos
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Sales by Match](https://www.hackerrank.com/challenges/sock-merchant/problem?h_l=interview&isFullScreen=true&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=warmup)
-            - I don't know why he method receive the list size, I think I could use for improve the Algorithms perform
         - [Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup&h_r=next-challenge&h_v=zen)
 
 ### 2 day ( 07/04/2022)
