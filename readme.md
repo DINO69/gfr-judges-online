@@ -195,11 +195,11 @@ Videos
 ## April
 
 - :white_check_mark: This month I want do 30 challenge
-- Finish read Lean Inception Book
-- Create two course
-    - Katalon
-    - How do test API passing Swagger - Postman - RestAssured
-- Create prove concept about [math algorithms](https://www.youtube.com/watch?v=5OBZYhJnne0&list=PL2_aWCzGMAwLL-mEB4ef20f3iqWMGWa25)
+- :x: Finish read Lean Inception Book
+- :x: Create two course
+    - :x: Katalon
+    - :x: How do test API passing Swagger - Postman - RestAssured
+- :x: Create prove concept about [math algorithms](https://www.youtube.com/watch?v=5OBZYhJnne0&list=PL2_aWCzGMAwLL-mEB4ef20f3iqWMGWa25)
 
 ### 1 day ( 06/04/2022)
 
@@ -350,6 +350,33 @@ Videos
           - [Down to Zero II](https://www.hackerrank.com/challenges/down-to-zero-ii/problem)
 
 ## May
+
+- Do minimum one challenge per day
+
+- Do 30 challenge this month
+  
+- Study and do exercise about this subject
+    - Trees
+    - Binary Search
+    - Big O Notation
+    - Hash Tables
+    - Object Oriented Design/Systems Design
+    - Arrays
+    - Recursion
+    - Linked Lists
+    - Stacks/Queues
+    - Bit Manipulation
+
+- See all Videos
+    - [mycodeschool](https://www.youtube.com/user/mycodeschool)
+
+## TODO
+
+- Finish read Lean Inception Book
+- Create two course
+    - Katalon
+    - How do test API passing Swagger - Postman - RestAssured
+- Create prove concept about [math algorithms](https://www.youtube.com/watch?v=5OBZYhJnne0&list=PL2_aWCzGMAwLL-mEB4ef20f3iqWMGWa25)
 
 - Study and do exercise about this subject
     - Trees (especially Binary Search Trees)
