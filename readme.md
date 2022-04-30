@@ -344,6 +344,11 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Castle on the Grid](https://www.hackerrank.com/challenges/castle-on-the-grid/problem)
 
+### 20 day ( 30/04/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+          - [Down to Zero II](https://www.hackerrank.com/challenges/down-to-zero-ii/problem)
 
 ## May
 
