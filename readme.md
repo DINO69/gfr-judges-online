@@ -377,6 +377,14 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Bonetrousle](https://www.hackerrank.com/challenges/bonetrousle/problem)
 
+### 2 day ( 02/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first/problem)
+        - [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum/problem)
+        - [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem)
+
 ## TODO
 
 - Finish read Lean Inception Book
