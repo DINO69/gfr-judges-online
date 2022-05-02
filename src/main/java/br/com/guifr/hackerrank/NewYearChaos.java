@@ -18,13 +18,19 @@ public class NewYearChaos {
     public String howManyBribes() {
 
         int bribes = 0;
-        int diff = 0;
         for(int x = 0; x < asList.size(); x++){
 
             int manyBribes = 0;
             int person = asList.get(x);
+
+            if(person - (x+1) > 2){
+                return "Too chaotic";
+            }
+
             for(int nextX = x + 1; nextX < asList.size(); nextX++){
-                if(person > asList.get(nextX)) {
+                int nextPerson = asList.get(nextX);
+
+                if(person > nextPerson) {
                     manyBribes++;
                     if (manyBribes > 2)
                         return "Too chaotic";
@@ -36,5 +42,18 @@ public class NewYearChaos {
         }
 
         return String.valueOf(bribes);
+    }
+
+
+    public String calc() {
+        int ans = 0;
+        for (int i = asList.size() - 1; i >= 0; i--) {
+            if (asList.get(i) - (i + 1) > 2) {
+                return "Too chaotic";
+            }
+            for (int j = Math.max(0, asList.get(i) - 2); j < i; j++)
+                if (asList.get(j) > asList.get(i)) ans++;
+        }
+        return String.valueOf(ans);
     }
 }

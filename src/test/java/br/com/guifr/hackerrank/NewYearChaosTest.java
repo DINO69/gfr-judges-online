@@ -51,4 +51,11 @@ class NewYearChaosTest {
         assertEquals("7",actual);
     }
 
+    @Test
+    @DisplayName("Return '7' when CALC people bribes other with queue 1 2 5 3 7 8 6 4")
+    public void test6(){
+        String actual = NewYearChaos.queue(Arrays.asList(1,2,5,3,7,8,6,4)).calc();
+        assertEquals("7",actual);
+    }
+
 }

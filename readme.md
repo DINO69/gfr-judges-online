@@ -370,6 +370,13 @@ Videos
 - See all Videos
     - [mycodeschool](https://www.youtube.com/user/mycodeschool)
 
+
+### 1 day ( 01/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Bonetrousle](https://www.hackerrank.com/challenges/bonetrousle/problem)
+
 ## TODO
 
 - Finish read Lean Inception Book
