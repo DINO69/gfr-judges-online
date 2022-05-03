@@ -386,8 +386,10 @@ Videos
         - [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem)
     - [beecrowd](https://www.beecrowd.com.br/judge/en)
         - [TDA Rational](https://www.beecrowd.com.br/judge/en/problems/view/1022)
-            - Calculate Big O ???
-            - Improve Algorithm ???
+            - Calculate Big O 
+                - First execution : 2.390s / 00740° = O(n2) 
+                - Second execution : 1.590s / 00722° = O(sqrt(n))
+            - Improve Algorithm : Created method 'findMaxComumTogether' to decrease complexity
 
 ## TODO
 

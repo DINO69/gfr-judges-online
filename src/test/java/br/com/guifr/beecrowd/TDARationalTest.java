@@ -265,4 +265,69 @@ class TDARationalTest {
         Assertions.assertEquals("3",actual.get(3),"Fourth is 3");
         Assertions.assertEquals("4",actual.get(4),"Fiveth is 4");
     }
+
+    @Test
+    @DisplayName("Return 2 When findMaxComumTogether With 10 8")
+    public void testfindMaxComumTogether1() {
+        int n = 10;
+        int d = 8;
+
+        int actual = TDARational.findMaxComumTogether(n,d);
+        Assertions.assertEquals(2, actual);
+    }
+
+    @Test
+    @DisplayName("Return 6 When findMaxComumTogether With 12 18")
+    public void testfindMaxComumTogether2() {
+        int n = 12;
+        int d = 18;
+
+        int actual = TDARational.findMaxComumTogether(n,d);
+        Assertions.assertEquals(6, actual);
+    }
+
+    @Test
+    @DisplayName("Return 7 When findMaxComumTogether With 35 21")
+    public void testfindMaxComumTogether3() {
+        int n = 35;
+        int d = 21;
+
+        int actual = TDARational.findMaxComumTogether(n,d);
+        Assertions.assertEquals(7, actual);
+    }
+
+    @Test
+    @DisplayName("Return 1 When findMaxComumTogether With 7 5")
+    public void testfindMaxComumTogether4() {
+        int n = 7;
+        int d = 5;
+
+        int actual = TDARational.findMaxComumTogether(n,d);
+        Assertions.assertEquals(1, actual);
+    }
+
+    @Test
+    @DisplayName("Return '5/4' When calculate mdcLessComplexity With '10/8'")
+    public void testMDCLessComplexity1() {
+
+        String actual = TDARational.mdcLessComplexity("10/8");
+        Assertions.assertEquals("5/4", actual);
+    }
+
+    @Test
+    @DisplayName("Return '2/3' When calculate mdcLessComplexity With '12/18'")
+    public void testMDCLessComplexity2() {
+
+        String actual = TDARational.mdcLessComplexity("12/18");
+        Assertions.assertEquals("2/3", actual);
+    }
+
+    @Test
+    @DisplayName("Return '-1/4' When calculate mdcLessComplexity With '-2/8'")
+    public void testMDCLessComplexity3() {
+
+        String actual = TDARational.mdcLessComplexity("-2/8");
+        Assertions.assertEquals("-1/4", actual);
+    }
+
 }
