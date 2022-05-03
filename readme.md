@@ -384,6 +384,10 @@ Videos
         - [Solve Me First](https://www.hackerrank.com/challenges/solve-me-first/problem)
         - [Simple Array Sum](https://www.hackerrank.com/challenges/simple-array-sum/problem)
         - [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem)
+    - [beecrowd](https://www.beecrowd.com.br/judge/en)
+        - [TDA Rational](https://www.beecrowd.com.br/judge/en/problems/view/1022)
+            - Calculate Big O ???
+            - Improve Algorithm ???
 
 ## TODO
 
@@ -410,6 +414,7 @@ Videos
           - Search element in a circular sorted array
         - Merge Sort
         - Quick Sort
+        - [Two pointers or sliding window](https://www.youtube.com/watch?v=wrGqWxT4UlQ)
     - Arrays
     - Recursion
     - Linked Lists
