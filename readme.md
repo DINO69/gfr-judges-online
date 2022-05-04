@@ -391,6 +391,14 @@ Videos
                 - Second execution : 1.590s / 00722° = O(sqrt(n))
             - Improve Algorithm : Created method 'findMaxComumTogether' to decrease complexity
 
+### 3 day ( 03/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+      - [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem)
+      - [Big Sorting](https://www.hackerrank.com/challenges/big-sorting/problem)
+    
+
 ## TODO
 
 - Finish read Lean Inception Book
@@ -416,6 +424,12 @@ Videos
           - Search element in a circular sorted array
         - Merge Sort
         - Quick Sort
+        - [sorting algorithm](https://pt.wikipedia.org/wiki/Algoritmo_de_ordena%C3%A7%C3%A3o)
+          - Bubble sort
+          - Selection Sort
+          - Insertion sort
+          - Quick sort
+          - HeapSort
         - [Two pointers or sliding window](https://www.youtube.com/watch?v=wrGqWxT4UlQ)
     - Arrays
     - Recursion
