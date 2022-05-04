@@ -397,7 +397,31 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
       - [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem)
       - [Big Sorting](https://www.hackerrank.com/challenges/big-sorting/problem)
-    
+
+### 4 day ( 04/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Intro to Tutorial Challenges](https://www.hackerrank.com/challenges/tutorial-intro/problem)
+            - 'indexAtBinarySearch' with Binary Search
+            - 'indexAt' without Binary Search
+
+### ?? day ( ??/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Insertion Sort - Part 1](https://www.hackerrank.com/challenges/insertionsort1/problem)
+        - [Insertion Sort - Part 2](](https://www.hackerrank.com/challenges/tutorial-intro/problem))
+        - [Correctness and the Loop Invariant](https://www.hackerrank.com/challenges/correctness-invariant/problem)
+        - [Running Time of Algorithms](https://www.hackerrank.com/challenges/runningtime/problem)
+        - [Quicksort 1 - Partition](https://www.hackerrank.com/challenges/quicksort1/problem)
+        - [Quicksort 2 - Sorting](https://www.hackerrank.com/challenges/quicksort2/problem)
+        - [Quicksort In-Place](https://www.hackerrank.com/challenges/quicksort3/problem)
+        - [Running Time of Quicksort](https://www.hackerrank.com/challenges/quicksort4/problem)
+        - [Counting Sort 1](https://www.hackerrank.com/challenges/countingsort1/problem)
+        - [Counting Sort 2](https://www.hackerrank.com/challenges/countingsort2/problem)
+        - [Counting Sort 3](https://www.hackerrank.com/challenges/countingsort3/problem)
+        - [The Full Counting Sort](https://www.hackerrank.com/challenges/countingsort4/problem)
 
 ## TODO
 
