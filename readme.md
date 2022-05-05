@@ -405,13 +405,13 @@ Videos
         - [Intro to Tutorial Challenges](https://www.hackerrank.com/challenges/tutorial-intro/problem)
             - 'indexAtBinarySearch' with Binary Search
             - 'indexAt' without Binary Search
+        - [Insertion Sort - Part 1](https://www.hackerrank.com/challenges/insertionsort1/problem)
+        - [Insertion Sort - Part 2](](https://www.hackerrank.com/challenges/tutorial-intro/problem))
 
 ### ?? day ( ??/05/2022)
 
 - judge
-    - [hackerrank](https://www.hackerrank.com)
-        - [Insertion Sort - Part 1](https://www.hackerrank.com/challenges/insertionsort1/problem)
-        - [Insertion Sort - Part 2](](https://www.hackerrank.com/challenges/tutorial-intro/problem))
+  - [hackerrank](https://www.hackerrank.com)
         - [Correctness and the Loop Invariant](https://www.hackerrank.com/challenges/correctness-invariant/problem)
         - [Running Time of Algorithms](https://www.hackerrank.com/challenges/runningtime/problem)
         - [Quicksort 1 - Partition](https://www.hackerrank.com/challenges/quicksort1/problem)
@@ -451,7 +451,7 @@ Videos
         - [sorting algorithm](https://pt.wikipedia.org/wiki/Algoritmo_de_ordena%C3%A7%C3%A3o)
           - Bubble sort
           - Selection Sort
-          - Insertion sort
+          - [Insertion sort](https://github.com/DINO69/gfr-judges-online/blob/main/src/main/java/br/com/guifr/hackerrank/sorted/InsertionSort.java)
           - Quick sort
           - HeapSort
         - [Two pointers or sliding window](https://www.youtube.com/watch?v=wrGqWxT4UlQ)
