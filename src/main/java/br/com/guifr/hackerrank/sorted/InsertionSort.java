@@ -33,4 +33,22 @@ public class InsertionSort {
 
         return result;
     }
+
+    public static void startedAtTheEnd(int[] ar) {
+
+        int lastPosition = ar.length - 1;
+
+        for(int i = lastPosition; i >= 0; i--){
+            int aux = i;
+            int big = ar[aux];
+            while(aux < lastPosition && big > ar[aux+1]){
+                ar[aux] = ar[aux+1];
+                aux++;
+            }
+            ar[aux] = big;
+
+        }
+
+
+    }
 }
