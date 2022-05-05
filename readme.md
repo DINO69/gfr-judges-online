@@ -406,7 +406,7 @@ Videos
             - 'indexAtBinarySearch' with Binary Search
             - 'indexAt' without Binary Search
         - [Insertion Sort - Part 1](https://www.hackerrank.com/challenges/insertionsort1/problem)
-        - [Insertion Sort - Part 2](](https://www.hackerrank.com/challenges/tutorial-intro/problem))
+        - [Insertion Sort - Part 2](https://www.hackerrank.com/challenges/insertionsort2/problem)
 
 ### ?? day ( ??/05/2022)
 
