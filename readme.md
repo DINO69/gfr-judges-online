@@ -416,11 +416,16 @@ Videos
             - Fixed problem
             - Read : [Loop Invariants](https://www.cs.scranton.edu/~mccloske/courses/cmps144/invariants_lec.html)
 
-### ?? day ( ??/05/2022)
+### 6 day ( 06/05/2022)
 
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Running Time of Algorithms](https://www.hackerrank.com/challenges/runningtime/problem)
+
+### ?? day ( ??/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
         - [Quicksort 1 - Partition](https://www.hackerrank.com/challenges/quicksort1/problem)
         - [Quicksort 2 - Sorting](https://www.hackerrank.com/challenges/quicksort2/problem)
         - [Quicksort In-Place](https://www.hackerrank.com/challenges/quicksort3/problem)
