@@ -413,7 +413,8 @@ Videos
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Correctness and the Loop Invariant](https://www.hackerrank.com/challenges/correctness-invariant/problem)
-            - Do Fix problem
+            - Fixed problem
+            - Read : [Loop Invariants](https://www.cs.scranton.edu/~mccloske/courses/cmps144/invariants_lec.html)
 
 ### ?? day ( ??/05/2022)
 
