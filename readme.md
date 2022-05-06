@@ -408,11 +408,17 @@ Videos
         - [Insertion Sort - Part 1](https://www.hackerrank.com/challenges/insertionsort1/problem)
         - [Insertion Sort - Part 2](https://www.hackerrank.com/challenges/insertionsort2/problem)
 
-### ?? day ( ??/05/2022)
+### 5 day ( 05/05/2022)
 
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Correctness and the Loop Invariant](https://www.hackerrank.com/challenges/correctness-invariant/problem)
+            - Do Fix problem
+
+### ?? day ( ??/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
         - [Running Time of Algorithms](https://www.hackerrank.com/challenges/runningtime/problem)
         - [Quicksort 1 - Partition](https://www.hackerrank.com/challenges/quicksort1/problem)
         - [Quicksort 2 - Sorting](https://www.hackerrank.com/challenges/quicksort2/problem)
