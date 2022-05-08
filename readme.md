@@ -435,13 +435,13 @@ Videos
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Running Time of Quicksort](https://www.hackerrank.com/challenges/quicksort4/problem)
+        - [Counting Sort 1](https://www.hackerrank.com/challenges/countingsort1/problem)
+        - [Counting Sort 2](https://www.hackerrank.com/challenges/countingsort2/problem)
 
 ### ?? day ( ??/05/2022)
 
 - judge
     - [hackerrank](https://www.hackerrank.com)
-        - [Counting Sort 1](https://www.hackerrank.com/challenges/countingsort1/problem)
-        - [Counting Sort 2](https://www.hackerrank.com/challenges/countingsort2/problem)
         - [Counting Sort 3](https://www.hackerrank.com/challenges/countingsort3/problem)
         - [The Full Counting Sort](https://www.hackerrank.com/challenges/countingsort4/problem)
 
