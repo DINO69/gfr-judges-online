@@ -430,11 +430,16 @@ Videos
         - [Quicksort 2 - Sorting](https://www.hackerrank.com/challenges/quicksort2/problem)
         - [Quicksort In-Place](https://www.hackerrank.com/challenges/quicksort3/problem)
 
-### ?? day ( ??/05/2022)
+### 8 day ( 08/05/2022)
 
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Running Time of Quicksort](https://www.hackerrank.com/challenges/quicksort4/problem)
+
+### ?? day ( ??/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
         - [Counting Sort 1](https://www.hackerrank.com/challenges/countingsort1/problem)
         - [Counting Sort 2](https://www.hackerrank.com/challenges/countingsort2/problem)
         - [Counting Sort 3](https://www.hackerrank.com/challenges/countingsort3/problem)
