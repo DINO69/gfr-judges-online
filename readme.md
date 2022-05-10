@@ -104,7 +104,7 @@
             - Exercise very good for learn because the conditions sequence can to take more time then other
         - [The Greatest](https://www.beecrowd.com.br/judge/en/problems/view/1013)
         - [Interval](https://www.beecrowd.com.br/judge/en/problems/view/1037)
-          - Do Challenge without if(s) chained
+            - Do Challenge without if(s) chained
 
 ### 15 day ( 20/01/2022)
 
@@ -199,7 +199,8 @@ Videos
 - :x: Create two course
     - :x: Katalon
     - :x: How do test API passing Swagger - Postman - RestAssured
-- :x: Create prove concept about [math algorithms](https://www.youtube.com/watch?v=5OBZYhJnne0&list=PL2_aWCzGMAwLL-mEB4ef20f3iqWMGWa25)
+- :x: Create prove concept
+  about [math algorithms](https://www.youtube.com/watch?v=5OBZYhJnne0&list=PL2_aWCzGMAwLL-mEB4ef20f3iqWMGWa25)
 
 ### 1 day ( 06/04/2022)
 
@@ -354,7 +355,7 @@ Videos
 - Do minimum one challenge per day
 
 - Do 30 challenge this month
-  
+
 - Study and do exercise about this subject
     - Trees
     - Binary Search
@@ -369,7 +370,6 @@ Videos
 
 - See all Videos
     - [mycodeschool](https://www.youtube.com/user/mycodeschool)
-
 
 ### 1 day ( 01/05/2022)
 
@@ -386,8 +386,8 @@ Videos
         - [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem)
     - [beecrowd](https://www.beecrowd.com.br/judge/en)
         - [TDA Rational](https://www.beecrowd.com.br/judge/en/problems/view/1022)
-            - Calculate Big O 
-                - First execution : 2.390s / 00740° = O(n2) 
+            - Calculate Big O
+                - First execution : 2.390s / 00740° = O(n2)
                 - Second execution : 1.590s / 00722° = O(sqrt(n))
             - Improve Algorithm : Created method 'findMaxComumTogether' to decrease complexity
 
@@ -395,8 +395,8 @@ Videos
 
 - judge
     - [hackerrank](https://www.hackerrank.com)
-      - [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem)
-      - [Big Sorting](https://www.hackerrank.com/challenges/big-sorting/problem)
+        - [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum/problem)
+        - [Big Sorting](https://www.hackerrank.com/challenges/big-sorting/problem)
 
 ### 4 day ( 04/05/2022)
 
@@ -438,12 +438,17 @@ Videos
         - [Counting Sort 1](https://www.hackerrank.com/challenges/countingsort1/problem)
         - [Counting Sort 2](https://www.hackerrank.com/challenges/countingsort2/problem)
 
-### ?? day ( ??/05/2022)
+### 9 day ( 09/05/2022)
 
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Counting Sort 3](https://www.hackerrank.com/challenges/countingsort3/problem)
         - [The Full Counting Sort](https://www.hackerrank.com/challenges/countingsort4/problem)
+
+### ?? day ( ??/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
 
 ## TODO
 
@@ -451,7 +456,8 @@ Videos
 - Create two course
     - Katalon
     - How do test API passing Swagger - Postman - RestAssured
-- Create prove concept about [math algorithms](https://www.youtube.com/watch?v=5OBZYhJnne0&list=PL2_aWCzGMAwLL-mEB4ef20f3iqWMGWa25)
+- Create prove concept
+  about [math algorithms](https://www.youtube.com/watch?v=5OBZYhJnne0&list=PL2_aWCzGMAwLL-mEB4ef20f3iqWMGWa25)
 
 - Study and do exercise about this subject
     - Trees (especially Binary Search Trees)
@@ -459,39 +465,39 @@ Videos
     - Big O Notation
     - Hash Tables
     - Object Oriented Design/Systems Design
-    - Algorithms: 
+    - Algorithms:
         - Breadth First Search
         - Depth First Search
         - Binary Search
-          - Implementation
-          - Find First / Find Last
-          - Count Occurrences
-          - How many times is a sorted array rotate
-          - Search element in a circular sorted array
+            - Implementation
+            - Find First / Find Last
+            - Count Occurrences
+            - How many times is a sorted array rotate
+            - Search element in a circular sorted array
         - Merge Sort
         - Quick Sort
         - [sorting algorithm](https://pt.wikipedia.org/wiki/Algoritmo_de_ordena%C3%A7%C3%A3o)
-          - Bubble sort
-          - Selection Sort
-          - [Insertion sort](https://github.com/DINO69/gfr-judges-online/blob/main/src/main/java/br/com/guifr/hackerrank/sorted/InsertionSort.java)
-          - Quick sort
-          - HeapSort
+            - Bubble sort
+            - Selection Sort
+            - [Insertion sort](https://github.com/DINO69/gfr-judges-online/blob/main/src/main/java/br/com/guifr/hackerrank/sorted/InsertionSort.java)
+            - Quick sort
+            - HeapSort
         - [Two pointers or sliding window](https://www.youtube.com/watch?v=wrGqWxT4UlQ)
     - Arrays
     - Recursion
     - Linked Lists
     - Stacks/Queues
     - Bit Manipulation
-    
+
 - Challenges
     - [data-structures](https://www.hackerrank.com/domains/data-structures)
-    
+
 - Courses
     - [introduction-to-data-structures-algorithms-in-java](https://www.udemy.com/course/introduction-to-data-structures-algorithms-in-java/#/)
-    
-- Books 
+
+- Books
     - [Cracking-Coding-Interview-Programming-Questions](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X)
     - [Introduction to Algorithms](https://en.wikipedia.org/wiki/Introduction_to_Algorithms)
-    
+
 - Videos
     - [mycodeschool](https://www.youtube.com/user/mycodeschool)
