@@ -453,7 +453,13 @@ Videos
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Plus Minus](https://www.hackerrank.com/challenges/three-month-preparation-kit-plus-minus/problem)
-        
+
+### 11 day ( 11/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Mini-Max Sum](https://www.hackerrank.com/challenges/three-month-preparation-kit-mini-max-sum/problem)
+
 
 ### ?? day ( ??/05/2022)
 
