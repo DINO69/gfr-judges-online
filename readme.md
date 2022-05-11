@@ -445,6 +445,16 @@ Videos
         - [Counting Sort 3](https://www.hackerrank.com/challenges/countingsort3/problem)
         - [The Full Counting Sort](https://www.hackerrank.com/challenges/countingsort4/problem)
 
+### 10 day ( 10/05/2022)
+
+- Certificate
+    - [Problem Solving (Basic) Certificate](https://www.hackerrank.com/certificates/f347e75c6a3f)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Plus Minus](https://www.hackerrank.com/challenges/three-month-preparation-kit-plus-minus/problem)
+        
+
 ### ?? day ( ??/05/2022)
 
 - judge
