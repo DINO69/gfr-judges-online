@@ -460,6 +460,14 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Mini-Max Sum](https://www.hackerrank.com/challenges/three-month-preparation-kit-mini-max-sum/problem)
 
+### 12 day ( 12/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Closest Numbers](https://www.hackerrank.com/challenges/closest-numbers/problem)
+        - [Time Conversion](https://www.hackerrank.com/challenges/three-month-preparation-kit-time-conversion/problem)
+        - [Breaking the Records](https://www.hackerrank.com/challenges/three-month-preparation-kit-breaking-best-and-worst-records/problem)
+
 
 ### ?? day ( ??/05/2022)
 
@@ -467,6 +475,9 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
 
 ## TODO
+
+- day 10th started the "Interview Preparation Kit has challenges curated by our experts for you to prepare and ace your interview in 3 months' time".
+    - End on August 10th
 
 - Finish read Lean Inception Book
 - Create two course
