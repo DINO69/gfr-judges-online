@@ -474,6 +474,14 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Camel Case 4](https://www.hackerrank.com/challenges/three-month-preparation-kit-camel-case/problem)
 
+### 14 day ( 14/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Lonely Integer](https://www.hackerrank.com/challenges/three-month-preparation-kit-lonely-integer/problem)
+        - [Grading Students](https://www.hackerrank.com/challenges/three-month-preparation-kit-grading/problem)
+        - [Divisible Sum Pairs](https://www.hackerrank.com/challenges/three-month-preparation-kit-divisible-sum-pairs/problem)
+
 
 ### ?? day ( ??/05/2022)
 
