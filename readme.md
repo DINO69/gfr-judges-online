@@ -468,6 +468,12 @@ Videos
         - [Time Conversion](https://www.hackerrank.com/challenges/three-month-preparation-kit-time-conversion/problem)
         - [Breaking the Records](https://www.hackerrank.com/challenges/three-month-preparation-kit-breaking-best-and-worst-records/problem)
 
+### 13 day ( 13/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Camel Case 4](https://www.hackerrank.com/challenges/three-month-preparation-kit-camel-case/problem)
+
 
 ### ?? day ( ??/05/2022)
 
