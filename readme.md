@@ -482,6 +482,13 @@ Videos
         - [Grading Students](https://www.hackerrank.com/challenges/three-month-preparation-kit-grading/problem)
         - [Divisible Sum Pairs](https://www.hackerrank.com/challenges/three-month-preparation-kit-divisible-sum-pairs/problem)
 
+### 15 day ( 15/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Flipping bits](https://www.hackerrank.com/challenges/three-month-preparation-kit-flipping-bits/problem)
+        - [Diagonal Difference](https://www.hackerrank.com/challenges/three-month-preparation-kit-diagonal-difference/problem)
+        - [Pangrams](https://www.hackerrank.com/challenges/three-month-preparation-kit-pangrams/problem)
 
 ### ?? day ( ??/05/2022)
 
