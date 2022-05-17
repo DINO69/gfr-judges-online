@@ -490,6 +490,12 @@ Videos
         - [Diagonal Difference](https://www.hackerrank.com/challenges/three-month-preparation-kit-diagonal-difference/problem)
         - [Pangrams](https://www.hackerrank.com/challenges/three-month-preparation-kit-pangrams/problem)
 
+### 16 day ( 16/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Mars Exploration](https://www.hackerrank.com/challenges/three-month-preparation-kit-mars-exploration/problem)
+
 ### ?? day ( ??/05/2022)
 
 - judge
