@@ -496,6 +496,13 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Mars Exploration](https://www.hackerrank.com/challenges/three-month-preparation-kit-mars-exploration/problem)
 
+### 17 day ( 17/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Permuting Two Arrays](https://www.hackerrank.com/challenges/three-month-preparation-kit-two-arrays/problem)
+        - [Subarray Division 2](https://www.hackerrank.com/challenges/three-month-preparation-kit-the-birthday-bar/problem)
+
 ### ?? day ( ??/05/2022)
 
 - judge
