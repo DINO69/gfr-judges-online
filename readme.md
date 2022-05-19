@@ -503,6 +503,12 @@ Videos
         - [Permuting Two Arrays](https://www.hackerrank.com/challenges/three-month-preparation-kit-two-arrays/problem)
         - [Subarray Division 2](https://www.hackerrank.com/challenges/three-month-preparation-kit-the-birthday-bar/problem)
 
+### 18 day ( 18/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Sales by Match](https://www.hackerrank.com/challenges/three-month-preparation-kit-sock-merchant/problem)
+
 ### ?? day ( ??/05/2022)
 
 - judge
