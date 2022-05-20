@@ -509,6 +509,13 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Sales by Match](https://www.hackerrank.com/challenges/three-month-preparation-kit-sock-merchant/problem)
 
+### 19 day ( 19/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Migratory Birds](https://www.hackerrank.com/challenges/three-month-preparation-kit-migratory-birds/problem)
+        - [Maximum Perimeter Triangle](https://www.hackerrank.com/challenges/three-month-preparation-kit-maximum-perimeter-triangle/problem)
+
 ### ?? day ( ??/05/2022)
 
 - judge
