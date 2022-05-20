@@ -521,7 +521,7 @@ Videos
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Zig Zag Sequence](https://www.hackerrank.com/challenges/three-month-preparation-kit-zig-zag-sequence/problem)
-            - The challenge is fix the code, it has a bugs
+            - ~~The challenge is fix the code, it has a bugs~~
 
 ### ?? day ( ??/05/2022)
 
