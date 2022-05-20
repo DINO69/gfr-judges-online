@@ -516,6 +516,13 @@ Videos
         - [Migratory Birds](https://www.hackerrank.com/challenges/three-month-preparation-kit-migratory-birds/problem)
         - [Maximum Perimeter Triangle](https://www.hackerrank.com/challenges/three-month-preparation-kit-maximum-perimeter-triangle/problem)
 
+### 20 day ( 20/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Zig Zag Sequence](https://www.hackerrank.com/challenges/three-month-preparation-kit-zig-zag-sequence/problem)
+            - The challenge is fix the code, it has a bugs
+
 ### ?? day ( ??/05/2022)
 
 - judge
