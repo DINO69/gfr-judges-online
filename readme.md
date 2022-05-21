@@ -523,6 +523,16 @@ Videos
         - [Zig Zag Sequence](https://www.hackerrank.com/challenges/three-month-preparation-kit-zig-zag-sequence/problem)
             - ~~The challenge is fix the code, it has a bugs~~
 
+### 21 day ( 21/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Drawing Book](https://www.hackerrank.com/challenges/three-month-preparation-kit-drawing-book/problem)
+            - [java.math.MathContext Class in Java](https://www.geeksforgeeks.org/java-math-mathcontext-class-in-java/)
+            - [Use of java.math.MathContext](https://stackoverflow.com/questions/7539/use-of-java-math-mathcontext)
+
+
+
 ### ?? day ( ??/05/2022)
 
 - judge
