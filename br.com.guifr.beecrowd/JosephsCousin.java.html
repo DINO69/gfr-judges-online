@@ -767,16 +767,16 @@
 <a name='org.pitest.mutationtest.report.html.SourceFile@35938f45_50'/>
 50
 </td>
-<td class='survived'>
+<td class='killed'>
 <span class='pop'>
 <a href='#grouporg.pitest.mutationtest.report.html.SourceFile@35938f45_50'>1</a>
 <span>
-1. isCousin : Replaced integer division with multiplication &rarr; SURVIVED<br/>
+1. isCousin : Replaced integer division with multiplication &rarr; KILLED<br/>
 
 </span>
 </span>
 </td>
-<td class='covered'><pre><span  class='survived'>            int result = number / cousin;</span></pre></td></tr>
+<td class='covered'><pre><span  class='killed'>            int result = number / cousin;</span></pre></td></tr>
 
 
 <tr>
@@ -927,16 +927,16 @@
 <a name='org.pitest.mutationtest.report.html.SourceFile@35938f45_60'/>
 60
 </td>
-<td class='uncertain'>
+<td class='killed'>
 <span class='pop'>
 <a href='#grouporg.pitest.mutationtest.report.html.SourceFile@35938f45_60'>1</a>
 <span>
-1. isCousin : replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; TIMED_OUT<br/>
+1. isCousin : replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED<br/>
 
 </span>
 </span>
 </td>
-<td class='covered'><pre><span  class='uncertain'>        return true;</span></pre></td></tr>
+<td class='covered'><pre><span  class='killed'>        return true;</span></pre></td></tr>
 
 
 <tr>
@@ -1852,7 +1852,7 @@
 
 <a name='grouporg.pitest.mutationtest.report.html.SourceFile@35938f45_37'/> 
 
-<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>withPeople<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 7 when input amount people is 9</span></span> mutated return of Object value for br/com/guifr/beecrowd/JosephsCousin::withPeople to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>withPeople<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 4 when input amount people is 6</span></span> mutated return of Object value for br/com/guifr/beecrowd/JosephsCousin::withPeople to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
 </td>
 </tr>
 <tr>
@@ -1862,7 +1862,7 @@
 
 <a name='grouporg.pitest.mutationtest.report.html.SourceFile@35938f45_41'/> 
 
-<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return false when ask if 10 is number cousin</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>isCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 7 when ask next cousin with 6</span></span> negated conditional &rarr; KILLED</p> 
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 13 when ask next cousin with 11</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>isCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return true when ask if 11 is number cousin</span></span> negated conditional &rarr; KILLED</p> 
 </td>
 </tr>
 <tr>
@@ -1882,7 +1882,7 @@
 
 <a name='grouporg.pitest.mutationtest.report.html.SourceFile@35938f45_45'/> 
 
-<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return false when ask if 10 is number cousin</span></span> negated conditional &rarr; KILLED</p> 
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 13 when ask next cousin with 11</span></span> negated conditional &rarr; KILLED</p> 
 </td>
 </tr>
 <tr>
@@ -1892,7 +1892,7 @@
 
 <a name='grouporg.pitest.mutationtest.report.html.SourceFile@35938f45_46'/> 
 
-<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 7 when ask next cousin with 6</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return true when ask if 11 is number cousin</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
 </td>
 </tr>
 <tr>
@@ -1902,7 +1902,7 @@
 
 <a name='grouporg.pitest.mutationtest.report.html.SourceFile@35938f45_50'/> 
 
-<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isCousin<br/><b>Killed by : </b>none</span></span> Replaced integer division with multiplication &rarr; SURVIVED</p> 
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 13 when ask next cousin with 11</span></span> Replaced integer division with multiplication &rarr; KILLED</p> 
 </td>
 </tr>
 <tr>
@@ -1912,7 +1912,7 @@
 
 <a name='grouporg.pitest.mutationtest.report.html.SourceFile@35938f45_51'/> 
 
-<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return false when ask if 10 is number cousin</span></span> Replaced integer modulus with multiplication &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>isCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 23 when ask next cousin with 19</span></span> negated conditional &rarr; KILLED</p> 
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 13 when ask next cousin with 11</span></span> Replaced integer modulus with multiplication &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>isCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 23 when ask next cousin with 19</span></span> negated conditional &rarr; KILLED</p> 
 </td>
 </tr>
 <tr>
@@ -1922,7 +1922,7 @@
 
 <a name='grouporg.pitest.mutationtest.report.html.SourceFile@35938f45_52'/> 
 
-<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return false when ask if 10 is number cousin</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 13 when ask next cousin with 11</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
 </td>
 </tr>
 <tr>
@@ -1932,7 +1932,7 @@
 
 <a name='grouporg.pitest.mutationtest.report.html.SourceFile@35938f45_54'/> 
 
-<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 466 when input amount people is 1501</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>isCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return false when ask if 25 is number cousin</span></span> negated conditional &rarr; KILLED</p> 
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 7 when input amount people is 9</span></span> changed conditional boundary &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>isCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 23 when ask next cousin with 19</span></span> negated conditional &rarr; KILLED</p> 
 </td>
 </tr>
 <tr>
@@ -1942,7 +1942,7 @@
 
 <a name='grouporg.pitest.mutationtest.report.html.SourceFile@35938f45_60'/> 
 
-<p class='TIMED_OUT'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isCousin<br/><b>Killed by : </b>none</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; TIMED_OUT</p> 
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>isCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 23 when ask next cousin with 19</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
 </td>
 </tr>
 <tr>
@@ -2012,7 +2012,7 @@
 
 <a name='grouporg.pitest.mutationtest.report.html.SourceFile@35938f45_80'/> 
 
-<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>nextCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 7 when ask next cousin with 6</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>nextCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 7 when ask next cousin with 6</span></span> negated conditional &rarr; KILLED</p> 
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>nextCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 13 when ask next cousin with 11</span></span> Changed increment from 1 to -1 &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>nextCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 13 when ask next cousin with 11</span></span> negated conditional &rarr; KILLED</p> 
 </td>
 </tr>
 <tr>
@@ -2022,7 +2022,7 @@
 
 <a name='grouporg.pitest.mutationtest.report.html.SourceFile@35938f45_82'/> 
 
-<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>nextCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 7 when ask next cousin with 6</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>nextCousin<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 13 when ask next cousin with 11</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
 </td>
 </tr>
 <tr>
@@ -2032,7 +2032,7 @@
 
 <a name='grouporg.pitest.mutationtest.report.html.SourceFile@35938f45_87'/> 
 
-<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>saving<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>saving<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 7 when input amount people is 9</span></span> negated conditional &rarr; KILLED</p> 
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>saving<br/><b>Killed by : </b>none</span></span> changed conditional boundary &rarr; SURVIVED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>saving<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 4 when input amount people is 6</span></span> negated conditional &rarr; KILLED</p> 
 </td>
 </tr>
 <tr>
@@ -2052,7 +2052,7 @@
 
 <a name='grouporg.pitest.mutationtest.report.html.SourceFile@35938f45_93'/> 
 
-<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>saving<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 7 when input amount people is 9</span></span> removed call to br/com/guifr/beecrowd/No::blacked &rarr; KILLED</p> 
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>saving<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 4 when input amount people is 6</span></span> removed call to br/com/guifr/beecrowd/No::blacked &rarr; KILLED</p> 
 </td>
 </tr>
 <tr>
@@ -2062,7 +2062,7 @@
 
 <a name='grouporg.pitest.mutationtest.report.html.SourceFile@35938f45_97'/> 
 
-<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>saving<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 7 when input amount people is 9</span></span> changed conditional boundary &rarr; KILLED</p> <p class='TIMED_OUT'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>saving<br/><b>Killed by : </b>none</span></span> Changed increment from 1 to -1 &rarr; TIMED_OUT</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>saving<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 7 when input amount people is 9</span></span> negated conditional &rarr; KILLED</p> 
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>saving<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 4 when input amount people is 6</span></span> changed conditional boundary &rarr; KILLED</p> <p class='TIMED_OUT'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>saving<br/><b>Killed by : </b>none</span></span> Changed increment from 1 to -1 &rarr; TIMED_OUT</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>saving<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 4 when input amount people is 6</span></span> negated conditional &rarr; KILLED</p> 
 </td>
 </tr>
 <tr>
@@ -2072,7 +2072,7 @@
 
 <a name='grouporg.pitest.mutationtest.report.html.SourceFile@35938f45_99'/> 
 
-<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>saving<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 7 when input amount people is 9</span></span> negated conditional &rarr; KILLED</p> 
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>saving<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 4 when input amount people is 6</span></span> negated conditional &rarr; KILLED</p> 
 </td>
 </tr>
 <tr>
@@ -2082,7 +2082,7 @@
 
 <a name='grouporg.pitest.mutationtest.report.html.SourceFile@35938f45_101'/> 
 
-<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>saving<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 7 when input amount people is 9</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>saving<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 4 when input amount people is 6</span></span> replaced return of integer sized value with (x == 0 ? 1 : 0) &rarr; KILLED</p> 
 </td>
 </tr>
 <tr>
@@ -2092,7 +2092,7 @@
 
 <a name='grouporg.pitest.mutationtest.report.html.SourceFile@35938f45_108'/> 
 
-<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>saving<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 7 when input amount people is 9</span></span> changed conditional boundary &rarr; KILLED</p> <p class='TIMED_OUT'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>saving<br/><b>Killed by : </b>none</span></span> Changed increment from -1 to 1 &rarr; TIMED_OUT</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>saving<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 7 when input amount people is 9</span></span> negated conditional &rarr; KILLED</p> 
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>saving<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 4 when input amount people is 6</span></span> changed conditional boundary &rarr; KILLED</p> <p class='TIMED_OUT'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>saving<br/><b>Killed by : </b>none</span></span> Changed increment from -1 to 1 &rarr; TIMED_OUT</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>saving<br/><b>Killed by : </b>br.com.guifr.beecrowd.JosephsCousinTest.Return 4 when input amount people is 6</span></span> negated conditional &rarr; KILLED</p> 
 </td>
 </tr>
 <tr>
@@ -2133,7 +2133,7 @@
 
 <h2>Tests examined</h2>
 <ul>
-<li>br.com.guifr.beecrowd.JosephsCousinTest.Return true when ask if 19 is number cousin (2 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return 13 when ask next cousin with 11 (3 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return 23 when ask next cousin with 19 (4 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return 7 when input amount people is 9 (2 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return 4 when input amount people is 6 (5 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return 466 when input amount people is 1501 (24 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return true when ask if 31 is number cousin (2 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return false when ask if 0 is number cousin (2 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return false when ask if 10 is number cousin (2 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return the position has value equal one, this test expect 2 (2 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return the position has value equal one, this test expect 1 (2 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return 17 when ask next cousin with 13 (3 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return amount position has value equal one, this test expect 2 (3 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return 11 when ask next cousin with 7 (4 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return 7 when ask next cousin with 6 (2 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return 19 when ask next cousin with 17 (5 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return false when ask if 1 is number cousin (2 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return false when ask if 25 is number cousin (2 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return false when ask if 18 is number cousin (2 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return true when ask if 11 is number cousin (2 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return 2326 when input amount people is 3501 (169 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return amount position has value equal one, this test expect 1 (12 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return true when ask if 7 is number cousin (16 ms)</li>
+<li>br.com.guifr.beecrowd.JosephsCousinTest.Return true when ask if 19 is number cousin (3 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return 13 when ask next cousin with 11 (3 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return 23 when ask next cousin with 19 (3 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return 4 when input amount people is 6 (4 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return 7 when input amount people is 9 (4 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return 466 when input amount people is 1501 (34 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return true when ask if 31 is number cousin (3 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return false when ask if 0 is number cousin (6 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return false when ask if 10 is number cousin (5 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return the position has value equal one, this test expect 2 (2 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return the position has value equal one, this test expect 1 (2 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return 17 when ask next cousin with 13 (4 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return amount position has value equal one, this test expect 2 (6 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return 11 when ask next cousin with 7 (5 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return 7 when ask next cousin with 6 (4 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return 19 when ask next cousin with 17 (4 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return false when ask if 1 is number cousin (6 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return false when ask if 25 is number cousin (7 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return true when ask if 11 is number cousin (3 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return false when ask if 18 is number cousin (4 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return 2326 when input amount people is 3501 (165 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return amount position has value equal one, this test expect 1 (9 ms)</li><li>br.com.guifr.beecrowd.JosephsCousinTest.Return true when ask if 7 is number cousin (5 ms)</li>
 </ul>
 
 <br/>
