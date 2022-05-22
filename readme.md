@@ -532,6 +532,11 @@ Videos
             - [Use of java.math.MathContext](https://stackoverflow.com/questions/7539/use-of-java-math-mathcontext)
 
 
+### 22 day ( 22/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Picking Numbers](https://www.hackerrank.com/challenges/three-month-preparation-kit-picking-numbers/problem)
 
 ### ?? day ( ??/05/2022)
 
