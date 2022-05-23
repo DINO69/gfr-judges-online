@@ -538,6 +538,12 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Picking Numbers](https://www.hackerrank.com/challenges/three-month-preparation-kit-picking-numbers/problem)
 
+### 23 day ( 23/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Number Line Jumps](https://www.hackerrank.com/challenges/three-month-preparation-kit-kangaroo/problem)
+
 ### ?? day ( ??/05/2022)
 
 - judge
