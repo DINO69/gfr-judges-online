@@ -543,6 +543,7 @@ Videos
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Number Line Jumps](https://www.hackerrank.com/challenges/three-month-preparation-kit-kangaroo/problem)
+        - [Separate the Numbers](https://www.hackerrank.com/challenges/three-month-preparation-kit-separate-the-numbers/problem)
 
 ### ?? day ( ??/05/2022)
 
