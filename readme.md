@@ -545,6 +545,12 @@ Videos
         - [Number Line Jumps](https://www.hackerrank.com/challenges/three-month-preparation-kit-kangaroo/problem)
         - [Separate the Numbers](https://www.hackerrank.com/challenges/three-month-preparation-kit-separate-the-numbers/problem)
 
+### 24 day ( 24/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Tower Breakers](https://www.hackerrank.com/challenges/three-month-preparation-kit-tower-breakers-1/problem)
+
 ### ?? day ( ??/05/2022)
 
 - judge
