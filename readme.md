@@ -550,6 +550,7 @@ Videos
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Tower Breakers](https://www.hackerrank.com/challenges/three-month-preparation-kit-tower-breakers-1/problem)
+        - [Minimum Absolute Difference in an Array](https://www.hackerrank.com/challenges/three-month-preparation-kit-minimum-absolute-difference-in-an-array/problem)
 
 ### ?? day ( ??/05/2022)
 
