@@ -563,11 +563,15 @@ Videos
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Max Min](https://www.hackerrank.com/challenges/three-month-preparation-kit-angry-children/problem)
-    
     - [beecrowd](https://www.beecrowd.com.br/judge/en)
         - [Drought](https://www.beecrowd.com.br/judge/en/problems/view/1023)
             - TIME=2.839
-    
+
+### 27 day ( 27/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Strong Password](https://www.hackerrank.com/challenges/three-month-preparation-kit-strong-password/problem)    
 
 ### ?? day ( ??/05/2022)
 
