@@ -558,6 +558,12 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Caesar Cipher](https://www.hackerrank.com/challenges/three-month-preparation-kit-caesar-cipher-1/problem)
 
+### 26 day ( 26/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Max Min](https://www.hackerrank.com/challenges/three-month-preparation-kit-angry-children/problem)
+
 ### ?? day ( ??/05/2022)
 
 - judge
