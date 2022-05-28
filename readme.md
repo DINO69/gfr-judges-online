@@ -578,7 +578,7 @@ Videos
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Smart Number 2](https://www.hackerrank.com/challenges/three-month-preparation-kit-smart-number/problem)
-            - The challenge is fix the code, it has a bugs
+            - ~~The challenge is fix the code, it has a bugs~~
 
 ### ?? day ( ??/05/2022)
 

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class SmartNumberTwo {
     public static boolean isSmartNumber(int num) {
         int val = (int) Math.sqrt(num);
-        if(num / val == 1)
+        if(val * val == num)
             return true;
         return false;
     }
