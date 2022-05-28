@@ -571,7 +571,14 @@ Videos
 
 - judge
     - [hackerrank](https://www.hackerrank.com)
-        - [Strong Password](https://www.hackerrank.com/challenges/three-month-preparation-kit-strong-password/problem)    
+        - [Strong Password](https://www.hackerrank.com/challenges/three-month-preparation-kit-strong-password/problem)
+
+### 28 day ( 28/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Smart Number 2](https://www.hackerrank.com/challenges/three-month-preparation-kit-smart-number/problem)
+            - The challenge is fix the code, it has a bugs
 
 ### ?? day ( ??/05/2022)
 
