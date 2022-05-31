@@ -580,6 +580,12 @@ Videos
         - [Smart Number 2](https://www.hackerrank.com/challenges/three-month-preparation-kit-smart-number/problem)
             - ~~The challenge is fix the code, it has a bugs~~
 
+### 29 day (31/05/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Missing Numbers](https://www.hackerrank.com/challenges/three-month-preparation-kit-missing-numbers/problem)
+
 ### ?? day ( ??/05/2022)
 
 - judge
