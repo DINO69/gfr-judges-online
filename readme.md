@@ -585,6 +585,7 @@ Videos
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Missing Numbers](https://www.hackerrank.com/challenges/three-month-preparation-kit-missing-numbers/problem)
+        - [Grid Challenge](https://www.hackerrank.com/challenges/three-month-preparation-kit-grid-challenge/problem)
 
 ### ?? day ( ??/05/2022)
 
