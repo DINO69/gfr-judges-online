@@ -7,46 +7,38 @@ public class SansaXor {
 
     public static int with(List<Integer> arr) {
 
-        Map<Integer, List<List<Integer>>> subArrays = new TreeMap<>();
+        if(arr.size() % 2 == 0) return 0;
+        int mid = arr.size() >> 1;
 
-        Map<Integer,Integer> occurs = new HashMap<>();
+        Map<Long,Long> occurs = new HashMap<>();
+        Map<Integer,Integer> occurs2 = new HashMap<>();
 
-        int lenghtArray = arr.size();
-        do{
-            subArrays.put(lenghtArray,new ArrayList<>());
-        }while(lenghtArray-- > 1);
-
-        for (int i = 0; i < arr.size(); i++) {
-            for (int j = i+1; j <= arr.size(); j++) {
-                List<Integer> sub = arr.subList(i, j);
-                subArrays.get(sub.size()).add(sub);
-                for(Integer n : sub){
-                    if(!occurs.containsKey(n)){
-                        occurs.put(n,0);
-                    }
-                    int quanntity = occurs.get(n);
-                    occurs.put(n,++quanntity);
-                }
-            }
+        int index = 0;
+        int last = arr.size() - 1;
+        long weight = arr.size();
+        while(index < mid){
+            plusValueIn(arr.get(index),weight, occurs);
+            plusValueIn(arr.get(last-index),weight, occurs);
+            index++;
+            weight = weight + ((mid - index)*2) + 1;
         }
+        plusValueIn(arr.get(mid),weight, occurs);
 
-        int result = 0;
-        for(List<List<Integer>> sub : subArrays.values()){
-            for(List<Integer> nList : sub){
-                for(Integer n : nList){
-                    result = result ^ n;
-                }
-            }
-        }
-
-        int result2 =
+        long result2 =
         occurs.entrySet()
                 .stream()
                 .filter(e -> e.getValue() % 2 == 1)
                 .map(Map.Entry::getKey)
-                .reduce(0, (partial,n) -> partial ^ n);
+                .reduce(0L, (partial, n) -> partial ^ n);
 
+        return (int)result2;
+    }
 
-        return result2;
+    private static void plusValueIn(long key, long weight, Map<Long, Long> occurs) {
+        long plusWeight = 0;
+        if(occurs.containsKey(key)){
+            plusWeight = occurs.get(key);
+        }
+        occurs.put(key, weight + plusWeight);
     }
 }

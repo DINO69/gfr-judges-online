@@ -4,10 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class SansaXorTest {
 
@@ -39,6 +36,19 @@ class SansaXorTest {
     @DisplayName("Return 48 When calculate sansaXor With [50 13 2]")
     public void test5() {
         Assertions.assertEquals(48,SansaXor.with(Arrays.asList(50,13,2)));
+    }
+
+    @Test
+    @DisplayName("Return 58 When calculate sansaXor With [50 13 2 9 10]")
+    public void test6() {
+        Assertions.assertEquals(58,SansaXor.with(Arrays.asList(50,13,2,9,10)));
+    }
+
+
+    @Test
+    @DisplayName("Return 53 When calculate sansaXor With [50 13 2 9 10 12 15]")
+    public void test7() {
+        Assertions.assertEquals(53,SansaXor.with(Arrays.asList(50,13,2,9,10,12,15)));
     }
 
 }
