@@ -587,16 +587,22 @@ Videos
         - [Missing Numbers](https://www.hackerrank.com/challenges/three-month-preparation-kit-missing-numbers/problem)
         - [Grid Challenge](https://www.hackerrank.com/challenges/three-month-preparation-kit-grid-challenge/problem)
 
-## May
+## Jun
 
 - Do 15 challenge this month
 
-### 1 day (34/06/2022)
+### 1 day (04/06/2022)
 
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Sansa and XOR](https://www.hackerrank.com/challenges/three-month-preparation-kit-sansa-and-xor/problem)
 
+### 02 day ( 07/06/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Prime Dates](https://www.hackerrank.com/challenges/three-month-preparation-kit-prime-date/problem)
+            - The challenge is fix the code, it has a bugs
 
 ### ?? day ( ??/05/2022)
 
