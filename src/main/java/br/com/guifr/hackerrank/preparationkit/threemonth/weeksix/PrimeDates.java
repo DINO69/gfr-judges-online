@@ -5,12 +5,10 @@ import java.util.StringTokenizer;
 
 public class PrimeDates {
 
-    public static int month[];
+    public static int month[] = new int[15];
 
     public static void main (String[] args) throws java.lang.Exception {
         Scanner in  = new Scanner(System.in);
-
-        month = new int[15];
 
         String s = in.nextLine();
 
