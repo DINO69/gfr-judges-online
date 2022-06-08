@@ -602,7 +602,7 @@ Videos
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Prime Dates](https://www.hackerrank.com/challenges/three-month-preparation-kit-prime-date/problem)
-            - The challenge is fix the code, it has a bugs
+            - ~~The challenge is fix the code, it has a bugs~~
 
 ### ?? day ( ??/05/2022)
 
