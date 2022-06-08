@@ -603,6 +603,7 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Prime Dates](https://www.hackerrank.com/challenges/three-month-preparation-kit-prime-date/problem)
             - ~~The challenge is fix the code, it has a bugs~~
+        - [Sherlock and Array](https://www.hackerrank.com/challenges/three-month-preparation-kit-sherlock-and-array/problem)
 
 ### ?? day ( ??/05/2022)
 
