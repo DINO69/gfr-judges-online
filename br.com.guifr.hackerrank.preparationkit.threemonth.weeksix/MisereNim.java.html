@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>MisereNim.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@4fd0a025_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@4fd0a025_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package br.com.guifr.hackerrank.preparationkit.threemonth.weeksix;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@4fd0a025_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@4fd0a025_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@4fd0a025_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@4fd0a025_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import java.util.List;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@4fd0a025_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@4fd0a025_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='uncovered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@4fd0a025_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@4fd0a025_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='uncovered'><pre><span  class=''>public class MisereNim {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@4fd0a025_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@4fd0a025_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@4fd0a025_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@4fd0a025_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@4fd0a025_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@4fd0a025_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public static String withPileStones(List&#60;Integer&#62; arr) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@4fd0a025_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@4fd0a025_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        int maxIsOne = arr.stream().mapToInt(Integer::intValue).max().getAsInt();</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@4fd0a025_10'/>
+10
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@4fd0a025_10'>4</a>
+<span>
+1. withPileStones : Replaced integer modulus with multiplication &rarr; KILLED<br/>
+2. withPileStones : negated conditional &rarr; KILLED<br/>
+3. withPileStones : negated conditional &rarr; KILLED<br/>
+4. withPileStones : mutated return of Object value for br/com/guifr/hackerrank/preparationkit/threemonth/weeksix/MisereNim::withPileStones to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if(maxIsOne == 1) return arr.size() % 2 == 0 ? &#34;First&#34; : &#34;Second&#34;;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@4fd0a025_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@4fd0a025_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@4fd0a025_12'/>
+12
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@4fd0a025_12'>2</a>
+<span>
+1. lambda$withPileStones$0 : Replaced XOR with AND &rarr; KILLED<br/>
+2. lambda$withPileStones$0 : mutated return of Object value for br/com/guifr/hackerrank/preparationkit/threemonth/weeksix/MisereNim::lambda$withPileStones$0 to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        Integer xor = arr.stream().reduce(0, (x, n) -&#62; x ^ n);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@4fd0a025_13'/>
+13
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@4fd0a025_13'>2</a>
+<span>
+1. withPileStones : negated conditional &rarr; KILLED<br/>
+2. withPileStones : mutated return of Object value for br/com/guifr/hackerrank/preparationkit/threemonth/weeksix/MisereNim::withPileStones to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return xor == 0 ? &#34;Second&#34; : &#34;First&#34;;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@4fd0a025_14'/>
+14
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@4fd0a025_14'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@4fd0a025_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@4fd0a025_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4fd0a025_10'>10</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4fd0a025_10'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>withPileStones<br/><b>Killed by : </b>br.com.guifr.hackerrank.preparationkit.threemonth.weeksix.MisereNimTest.Return 'First' When First play win With [1,1]</span></span> Replaced integer modulus with multiplication &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>withPileStones<br/><b>Killed by : </b>br.com.guifr.hackerrank.preparationkit.threemonth.weeksix.MisereNimTest.Return 'First' When First play win With [1,2,2]</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>3.<span><b>3</b><br/><b>Location : </b>withPileStones<br/><b>Killed by : </b>br.com.guifr.hackerrank.preparationkit.threemonth.weeksix.MisereNimTest.Return 'Second' When Second play win With [1]</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>4.<span><b>4</b><br/><b>Location : </b>withPileStones<br/><b>Killed by : </b>br.com.guifr.hackerrank.preparationkit.threemonth.weeksix.MisereNimTest.Return 'Second' When Second play win With [1]</span></span> mutated return of Object value for br/com/guifr/hackerrank/preparationkit/threemonth/weeksix/MisereNim::withPileStones to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4fd0a025_12'>12</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4fd0a025_12'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>lambda$withPileStones$0<br/><b>Killed by : </b>br.com.guifr.hackerrank.preparationkit.threemonth.weeksix.MisereNimTest.Return 'First' When First play win With [1,2,2]</span></span> Replaced XOR with AND &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>lambda$withPileStones$0<br/><b>Killed by : </b>br.com.guifr.hackerrank.preparationkit.threemonth.weeksix.MisereNimTest.Return 'First' When First play win With [1,2,2]</span></span> mutated return of Object value for br/com/guifr/hackerrank/preparationkit/threemonth/weeksix/MisereNim::lambda$withPileStones$0 to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@4fd0a025_13'>13</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@4fd0a025_13'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>withPileStones<br/><b>Killed by : </b>br.com.guifr.hackerrank.preparationkit.threemonth.weeksix.MisereNimTest.Return 'First' When First play win With [1,2,2]</span></span> negated conditional &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>withPileStones<br/><b>Killed by : </b>br.com.guifr.hackerrank.preparationkit.threemonth.weeksix.MisereNimTest.Return 'First' When First play win With [1,2,2]</span></span> mutated return of Object value for br/com/guifr/hackerrank/preparationkit/threemonth/weeksix/MisereNim::withPileStones to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+<li class='mutator'>MATH_MUTATOR</li>
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>br.com.guifr.hackerrank.preparationkit.threemonth.weeksix.MisereNimTest.Return 'Second' When second play win With [1,1,1] (5 ms)</li><li>br.com.guifr.hackerrank.preparationkit.threemonth.weeksix.MisereNimTest.Return 'First' When First play win With [1,1] (2 ms)</li><li>br.com.guifr.hackerrank.preparationkit.threemonth.weeksix.MisereNimTest.Return 'Second' When Second play win With [4 1 1 1 4 8 5 10 1 7 7 4 10 9] (2 ms)</li><li>br.com.guifr.hackerrank.preparationkit.threemonth.weeksix.MisereNimTest.Return 'Second' When Second play win With [1] (1 ms)</li><li>br.com.guifr.hackerrank.preparationkit.threemonth.weeksix.MisereNimTest.Return 'Second' When second play win With [1,2,3] (1 ms)</li><li>br.com.guifr.hackerrank.preparationkit.threemonth.weeksix.MisereNimTest.Return 'First' When First play win With [1,1,1,1] (3 ms)</li><li>br.com.guifr.hackerrank.preparationkit.threemonth.weeksix.MisereNimTest.Return 'First' When First play win With [1,2,2] (1 ms)</li><li>br.com.guifr.hackerrank.preparationkit.threemonth.weeksix.MisereNimTest.Return 'First' When First play win With [1,2,4] (1 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.4.3
+
+</body>
+</html>
