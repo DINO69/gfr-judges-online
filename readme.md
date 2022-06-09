@@ -605,6 +605,13 @@ Videos
             - ~~The challenge is fix the code, it has a bugs~~
         - [Sherlock and Array](https://www.hackerrank.com/challenges/three-month-preparation-kit-sherlock-and-array/problem)
 
+### 03 day ( 08/06/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Gaming Array 1](https://www.hackerrank.com/challenges/three-month-preparation-kit-an-interesting-game-1/problem)
+        - [Misère Nim](https://www.hackerrank.com/challenges/three-month-preparation-kit-misere-nim-1/problem)
+
 ### ?? day ( ??/05/2022)
 
 - judge
