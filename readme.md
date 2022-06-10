@@ -612,6 +612,12 @@ Videos
         - [Gaming Array 1](https://www.hackerrank.com/challenges/three-month-preparation-kit-an-interesting-game-1/problem)
         - [Misère Nim](https://www.hackerrank.com/challenges/three-month-preparation-kit-misere-nim-1/problem)
 
+### 04 day ( 10/06/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Forming a Magic Square](https://www.hackerrank.com/challenges/three-month-preparation-kit-magic-square-forming/problem)
+
 ### ?? day ( ??/05/2022)
 
 - judge
