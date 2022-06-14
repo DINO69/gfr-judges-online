@@ -618,6 +618,12 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Forming a Magic Square](https://www.hackerrank.com/challenges/three-month-preparation-kit-magic-square-forming/problem)
 
+### 05 day ( 13/06/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Recursive Digit Sum](https://www.hackerrank.com/challenges/three-month-preparation-kit-recursive-digit-sum/problem)
+
 ### ?? day ( ??/05/2022)
 
 - judge
