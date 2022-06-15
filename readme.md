@@ -624,6 +624,12 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Recursive Digit Sum](https://www.hackerrank.com/challenges/three-month-preparation-kit-recursive-digit-sum/problem)
 
+### 06 day ( 15/06/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Counter game](https://www.hackerrank.com/challenges/three-month-preparation-kit-counter-game/problem)
+
 ### ?? day ( ??/05/2022)
 
 - judge
