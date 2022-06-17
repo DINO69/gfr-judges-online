@@ -630,6 +630,12 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Counter game](https://www.hackerrank.com/challenges/three-month-preparation-kit-counter-game/problem)
 
+### 07 day ( 17/06/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Sum vs XOR](https://www.hackerrank.com/challenges/three-month-preparation-kit-sum-vs-xor/problem)
+
 ### ?? day ( ??/05/2022)
 
 - judge
