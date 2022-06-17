@@ -635,6 +635,7 @@ Videos
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Sum vs XOR](https://www.hackerrank.com/challenges/three-month-preparation-kit-sum-vs-xor/problem)
+        - PalindromeIndex Mock Test
 
 ### ?? day ( ??/05/2022)
 
