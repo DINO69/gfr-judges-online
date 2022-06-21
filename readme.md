@@ -637,6 +637,12 @@ Videos
         - [Sum vs XOR](https://www.hackerrank.com/challenges/three-month-preparation-kit-sum-vs-xor/problem)
         - PalindromeIndex Mock Test
 
+### 08 day ( 21/06/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [The Bomberman Game](https://www.hackerrank.com/challenges/three-month-preparation-kit-bomber-man/problem)
+
 ### ?? day ( ??/05/2022)
 
 - judge
