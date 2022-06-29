@@ -643,6 +643,12 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [The Bomberman Game](https://www.hackerrank.com/challenges/three-month-preparation-kit-bomber-man/problem)
 
+### 09 day ( 28/06/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Goodland Electricity](https://www.hackerrank.com/challenges/three-month-preparation-kit-pylons/problem)
+
 ### ?? day ( ??/05/2022)
 
 - judge
