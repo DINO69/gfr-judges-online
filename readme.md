@@ -654,6 +654,7 @@ Videos
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Sherlock and the Valid String](https://www.hackerrank.com/challenges/three-month-preparation-kit-sherlock-and-valid-string/problem)
+        - [Climbing the Leaderboard](https://www.hackerrank.com/challenges/three-month-preparation-kit-climbing-the-leaderboard/problem)
 
 ### ?? day ( ??/05/2022)
 
