@@ -649,6 +649,12 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Goodland Electricity](https://www.hackerrank.com/challenges/three-month-preparation-kit-pylons/problem)
 
+### 10 day ( 29/06/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Sherlock and the Valid String](https://www.hackerrank.com/challenges/three-month-preparation-kit-sherlock-and-valid-string/problem)
+
 ### ?? day ( ??/05/2022)
 
 - judge
