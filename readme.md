@@ -4,8 +4,7 @@
 
 [![GFR-JUDGES-ONLINE](https://github.com/DINO69/gfr-judges-online/actions/workflows/maven.yml/badge.svg)](https://github.com/DINO69/gfr-judges-online/actions/workflows/maven.yml)
 
-[Pit Test Coverage Report
-](https://dino69.github.io/gfr-judges-online/index.html)
+[Pit Test Coverage Report](https://dino69.github.io/gfr-judges-online/index.html)
 
 ## January
 
@@ -655,6 +654,23 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Sherlock and the Valid String](https://www.hackerrank.com/challenges/three-month-preparation-kit-sherlock-and-valid-string/problem)
         - [Climbing the Leaderboard](https://www.hackerrank.com/challenges/three-month-preparation-kit-climbing-the-leaderboard/problem)
+
+## Jun
+
+### 01 day ( 18/07/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+      - [Merge two sorted linked lists](https://www.hackerrank.com/challenges/three-month-preparation-kit-merge-two-sorted-linked-lists/problem)
+      - [Cycle Detection](https://www.hackerrank.com/challenges/three-month-preparation-kit-detect-whether-a-linked-list-contains-a-cycle/problem)
+
+### 02 day ( 19/07/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Ice Cream Parlor](https://www.hackerrank.com/challenges/three-month-preparation-kit-icecream-parlor/problem)
+        - [Inserting a Node Into a Sorted Doubly Linked List](https://www.hackerrank.com/challenges/three-month-preparation-kit-insert-a-node-into-a-sorted-doubly-linked-list/problem)
+
 
 ### ?? day ( ??/05/2022)
 
