@@ -655,7 +655,7 @@ Videos
         - [Sherlock and the Valid String](https://www.hackerrank.com/challenges/three-month-preparation-kit-sherlock-and-valid-string/problem)
         - [Climbing the Leaderboard](https://www.hackerrank.com/challenges/three-month-preparation-kit-climbing-the-leaderboard/problem)
 
-## Jun
+## Jul
 
 ### 01 day ( 18/07/2022)
 
