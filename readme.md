@@ -671,6 +671,11 @@ Videos
         - [Ice Cream Parlor](https://www.hackerrank.com/challenges/three-month-preparation-kit-icecream-parlor/problem)
         - [Inserting a Node Into a Sorted Doubly Linked List](https://www.hackerrank.com/challenges/three-month-preparation-kit-insert-a-node-into-a-sorted-doubly-linked-list/problem)
 
+### 03 day ( 21/07/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Super Reduced String](https://www.hackerrank.com/challenges/three-month-preparation-kit-reduced-string/problem)
 
 ### ?? day ( ??/05/2022)
 
