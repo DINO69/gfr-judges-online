@@ -14,6 +14,8 @@
         <org.junit.platform.version>1.8.2</org.junit.platform.version>
         <pitest.version>1.4.3</pitest.version>
         <org.junit.jupiter>5.8.2</org.junit.jupiter>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>11</java.version>
         <!--        <junit.jupiter.execution.parallel.enabled>true</junit.jupiter.execution.parallel.enabled>-->
     </properties>
 
