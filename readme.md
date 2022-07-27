@@ -677,6 +677,12 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Super Reduced String](https://www.hackerrank.com/challenges/three-month-preparation-kit-reduced-string/problem)
 
+### 04 day ( 27/07/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Waiter](https://www.hackerrank.com/challenges/three-month-preparation-kit-waiter/problem)
+
 ### ?? day ( ??/05/2022)
 
 - judge
