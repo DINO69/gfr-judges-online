@@ -1,4 +1,4 @@
-package br.com.guifr.hackerrank.preparationkit.threemonth.weekeight;
+package br.com.guifr.hackerrank.preparationkit.threemonth.weeknine;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;

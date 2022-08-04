@@ -1,4 +1,4 @@
-package br.com.guifr.hackerrank.preparationkit.threemonth.weekeight;
+package br.com.guifr.hackerrank.preparationkit.threemonth.weeknine;
 
 import java.util.*;
 
@@ -54,7 +54,6 @@ public class Waiter {
             }
             numbersPrimes.add(nextPrime);
         }
-
         return numbersPrimes.get(index);
     }
 

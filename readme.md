@@ -683,6 +683,14 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Waiter](https://www.hackerrank.com/challenges/three-month-preparation-kit-waiter/problem)
 
+## Aug
+
+### 01 day ( 04/08/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Stock Maximize](https://www.hackerrank.com/challenges/three-month-preparation-kit-stockmax/problem)
+
 ### ?? day ( ??/05/2022)
 
 - judge
