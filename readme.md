@@ -691,6 +691,12 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Stock Maximize](https://www.hackerrank.com/challenges/three-month-preparation-kit-stockmax/problem)
 
+### ? day ( 30/08/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Equal Stacks](https://www.hackerrank.com/challenges/three-month-preparation-kit-equal-stacks/problem)
+
 ### ?? day ( ??/05/2022)
 
 - judge
