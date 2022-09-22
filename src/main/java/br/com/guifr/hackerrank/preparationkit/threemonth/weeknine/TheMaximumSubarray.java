@@ -40,8 +40,6 @@ public class TheMaximumSubarray {
 
     protected static int sumAllValuesBiggerThanZero(List<Integer> values) {
 
-        if(values.size() == 0) return 0;
-
         return values.stream()
                 .filter(v -> v > 0)
                 .mapToInt(Integer::intValue)
