@@ -706,6 +706,12 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Two Characters](https://www.hackerrank.com/challenges/three-month-preparation-kit-two-characters/problem)
 
+### 02 day ( 20/09/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [The Maximum Subarray](https://www.hackerrank.com/challenges/three-month-preparation-kit-maxsubarray/problem)
+
 ### Goals
 
 #### 1
