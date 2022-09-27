@@ -712,6 +712,12 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [The Maximum Subarray](https://www.hackerrank.com/challenges/three-month-preparation-kit-maxsubarray/problem)
 
+### 03 day ( 27/09/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Chief Hopper](https://www.hackerrank.com/challenges/three-month-preparation-kit-chief-hopper/problem)
+
 ### Goals
 
 #### 1
