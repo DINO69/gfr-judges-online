@@ -718,6 +718,14 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Chief Hopper](https://www.hackerrank.com/challenges/three-month-preparation-kit-chief-hopper/problem)
 
+## Out
+
+### 01 day (03/10/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [The Coin Change Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-coin-change/problem)
+
 ### Goals
 
 #### 1
