@@ -726,6 +726,12 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [The Coin Change Problem](https://www.hackerrank.com/challenges/three-month-preparation-kit-coin-change/problem)
 
+### 02 day (11/10/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Weighted Uniform Strings](https://www.hackerrank.com/challenges/three-month-preparation-kit-weighted-uniform-string/problem)
+
 ### Goals
 
 #### 1
