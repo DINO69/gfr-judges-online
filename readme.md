@@ -732,6 +732,12 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Weighted Uniform Strings](https://www.hackerrank.com/challenges/three-month-preparation-kit-weighted-uniform-string/problem)
 
+### 03 day (20/10/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Permutation game](https://www.hackerrank.com/challenges/three-month-preparation-kit-permutation-game/problem)
+
 ### Goals
 
 #### 1
