@@ -738,6 +738,12 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Permutation game](https://www.hackerrank.com/challenges/three-month-preparation-kit-permutation-game/problem)
 
+### 04 day (21/10/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [QHEAP1](https://www.hackerrank.com/challenges/three-month-preparation-kit-qheap1/problem)
+
 ### Goals
 
 #### 1
