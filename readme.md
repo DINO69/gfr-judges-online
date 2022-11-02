@@ -744,11 +744,14 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [QHEAP1](https://www.hackerrank.com/challenges/three-month-preparation-kit-qheap1/problem)
 
-### 1 week ( 01/11/2022)
+## Nov
+
+### 1 week (31/10/2022 - 06/11/2022)
 
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Largest Rectangle](https://www.hackerrank.com/challenges/three-month-preparation-kit-largest-rectangle/problem)
+        - [Jesse and Cookies](https://www.hackerrank.com/challenges/three-month-preparation-kit-jesse-and-cookies/problem)
     
 ### Goals
 
