@@ -752,6 +752,12 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Largest Rectangle](https://www.hackerrank.com/challenges/three-month-preparation-kit-largest-rectangle/problem)
         - [Jesse and Cookies](https://www.hackerrank.com/challenges/three-month-preparation-kit-jesse-and-cookies/problem)
+        - 
+### 2 week (07/11/2022 - 13/11/2022)
+
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Hackerland Radio Transmitters](https://www.hackerrank.com/challenges/three-month-preparation-kit-hackerland-radio-transmitters/problem)
     
 ### Goals
 
