@@ -752,12 +752,29 @@ Videos
     - [hackerrank](https://www.hackerrank.com)
         - [Largest Rectangle](https://www.hackerrank.com/challenges/three-month-preparation-kit-largest-rectangle/problem)
         - [Jesse and Cookies](https://www.hackerrank.com/challenges/three-month-preparation-kit-jesse-and-cookies/problem)
-        - 
+
 ### 2 week (07/11/2022 - 13/11/2022)
 
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Hackerland Radio Transmitters](https://www.hackerrank.com/challenges/three-month-preparation-kit-hackerland-radio-transmitters/problem)
+
+### 3 week (14/11/2022 - 20/11/2022)
+
+### 4 week (21/11/2022 - 27/11/2022)
+
+### 5 week (28/11/2022 - 04/12/2022)
+
+### 6 week (05/12/2022 - 11/12/2022)
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Lego Blocks](https://www.hackerrank.com/challenges/three-month-preparation-kit-lego-blocks/problem)
+        - Mock Test - WeekTen Did 1/2
+        - Mock Test - WeekEleven Did 1/1 ( Improve the Algorithm )
+    
+- judge //TODO
+    - [beecrowd](https://www.beecrowd.com.br/judge/en)
+        - [Set](https://www.beecrowd.com.br/judge/en/problems/view/1090)
     
 ### Goals
 
