@@ -41,6 +41,6 @@ class MinimumOperationsFourTest {
         obj.get();
         obj.minOperations();
 
-        assertEquals("6\r\n", testOut.toString());
+        assertEquals("6"+System.lineSeparator(), testOut.toString());
     }
 }

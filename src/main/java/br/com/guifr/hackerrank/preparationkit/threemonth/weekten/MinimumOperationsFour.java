@@ -25,29 +25,50 @@ public class MinimumOperationsFour {
         }
     }
 
+    public static void main(String[] args) {
+        int j = 0;
+        for (j = 0; j < 7; j++){
+            System.out.println(j | 1);
+            System.out.println(j | 2);
+            System.out.println(j | 4);
+        }
+    }
+
     public void minOperations() {
         int i, j;
-        for (i = 0; i < n; i++) {
-            for (j = 0; j < 7; j++) {
-                dp[i][j] = (1<<30);
-            }
-        }
+
+        initializeDp();
+
         dp[0][0] = 0;
         for (i = 0; i < n; i++){
             for (j = 0; j < 7; j++){
-                dp[i + 1][j | 1] = Math.min(dp[i + 1][j | 1], dp[i][j] + green.get(i) + blue.get(i));
-                dp[i + 1][j | 2] = Math.min(dp[i + 1][j | 2], dp[i][j] + red.get(i) + blue.get(i));
-                dp[i + 1][j | 4] = Math.min(dp[i + 1][j | 4], dp[i][j] + blue.get(i) + green.get(i));
+                dp[i + 1][j | 1] = Math.min(dp[i + 1][j | 1], dp[i][j] + green.get(i) + blue.get(i));//red
+                dp[i + 1][j | 2] = Math.min(dp[i + 1][j | 2], dp[i][j] + red.get(i) + blue.get(i));//green
+                dp[i + 1][j | 4] = Math.min(dp[i + 1][j | 4], dp[i][j] + red.get(i) + green.get(i));//blue
             }
         }
+
         j = 0;
+
         for (i = 0; i < n; i++){
             if (green.get(i) != 0) j |= 1;
             if (red.get(i) != 0) j |= 2;
             if (blue.get(i) != 0) j |= 4;
         }
+
         if (dp[n][j] >= (1<<30)) dp[n][j] = -1;
+
         System.out.println(dp[n][j]);
+    }
+
+    private void initializeDp() {
+        int i;
+        int j;
+        for (i = 0; i <= n; i++) {
+            for (j = 0; j <= 7; j++) {
+                dp[i][j] = (1<<30);
+            }
+        }
     }
 }
 class Solution {
