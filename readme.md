@@ -775,6 +775,11 @@ Videos
 - judge //TODO
     - [beecrowd](https://www.beecrowd.com.br/judge/en)
         - [Set](https://www.beecrowd.com.br/judge/en/problems/view/1090)
+
+### 7 week (12/12/2022 - 18/12/2022)
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Queries with Fixed Length](https://www.hackerrank.com/challenges/three-month-preparation-kit-queries-with-fixed-length/problem)
     
 ### Goals
 
