@@ -780,7 +780,14 @@ Videos
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Queries with Fixed Length](https://www.hackerrank.com/challenges/three-month-preparation-kit-queries-with-fixed-length/problem)
-    
+
+### 8 week (19/12/2022 - 25/12/2022)
+
+### 9 week (26/12/2022 - 01/01/2023)
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Common Child](https://www.hackerrank.com/challenges/three-month-preparation-kit-common-child/problem)
+
 ### Goals
 
 #### 1
