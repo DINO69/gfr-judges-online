@@ -787,6 +787,7 @@ Videos
 - judge
     - [hackerrank](https://www.hackerrank.com)
         - [Common Child](https://www.hackerrank.com/challenges/three-month-preparation-kit-common-child/problem)
+        - [Highest Value Palindrome](https://www.hackerrank.com/challenges/three-month-preparation-kit-richie-rich/problem)
 
 ### Goals
 
