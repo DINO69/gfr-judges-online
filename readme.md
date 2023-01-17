@@ -789,6 +789,13 @@ Videos
         - [Common Child](https://www.hackerrank.com/challenges/three-month-preparation-kit-common-child/problem)
         - [Highest Value Palindrome](https://www.hackerrank.com/challenges/three-month-preparation-kit-richie-rich/problem)
 
+### 10 week (02/01/2023 - 08/01/2023)
+### 11 week (09/01/2023 - 15/01/2023)
+### 12 week (16/01/2023 - 22/01/2023)
+- judge
+    - [hackerrank](https://www.hackerrank.com)
+        - [Lily's Homework](https://www.hackerrank.com/challenges/three-month-preparation-kit-lilys-homework/problem)
+
 ### Goals
 
 #### 1
