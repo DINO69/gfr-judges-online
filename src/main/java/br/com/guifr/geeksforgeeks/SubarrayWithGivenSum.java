@@ -9,22 +9,16 @@ public class SubarrayWithGivenSum {
     public static ArrayList<Integer> findContinuosValusUntil(int[] arr, int n, int s) {
         ArrayList<Integer> result = new ArrayList<>();
 
-        if(s == 0){
-            result.add(-1);
-            return result;
-        }
-
         int start = 0;
         int end = 0;
-        int sum = 0;
-        while(end < n){
-            sum += arr[end];
+        while(end < n && s > 0){
+            s -= arr[end];
             end++;
-            while(sum > s){
-                sum -= arr[start];
+            while(s < 0){
+                s += arr[start];
                 start++;
             }
-            if(sum == s) {
+            if(0 == s) {
                 result.add(start+1);
                 result.add(end);
                 break;
