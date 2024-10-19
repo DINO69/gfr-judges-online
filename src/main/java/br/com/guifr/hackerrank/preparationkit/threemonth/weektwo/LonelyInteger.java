@@ -24,6 +24,7 @@ public class LonelyInteger {
         Map<Integer,Integer> result = new HashMap<>();
         for(Integer element : arr){
             int count = 0;
+
             if(result.containsKey(element)){
                 count++;
             }

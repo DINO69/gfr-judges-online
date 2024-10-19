@@ -25,7 +25,8 @@ public class TheMaximumSubarray {
 
         for(int i = start; i < values.size(); i++ ){
 
-            if(values.get(i) < 0 && otherMax == Integer.MIN_VALUE) otherMax = Math.max(max,getMaximumSequence(values,start + 1));
+            if(values.get(i) < 0 && otherMax == Integer.MIN_VALUE)
+                otherMax = Math.max(max,getMaximumSequence(values,start + 1));
 
             sum += values.get(i);
 

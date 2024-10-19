@@ -14,6 +14,9 @@ public class QueenParametizedTest {
     @ParameterizedTest(name = "{index} - Return [{0}] when The Queen started [{1}] [{2}] and ended [{3}] [{4}]")
     @MethodSource("parametros")
     public void test9(int result, int x1, int y1, int x2, int y2) {
+
+
+
         int actual = Queen.started(x1, y1).endedIn(x2, y2).howMoves();
         assertEquals(result, actual);
     }

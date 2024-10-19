@@ -5,7 +5,9 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 class FrequencyQueriesTest {
 
@@ -73,7 +75,26 @@ class FrequencyQueriesTest {
     }
 
     @Test
-    @DisplayName("Return [0,1,1q] When frequency queris With third exemple")
+    @DisplayName("Return [0,0] When frequency queris With third exemple")
+    public void test6() {
+        List<List<Integer>> queries = Arrays.asList(
+                Arrays.asList(3, 4),
+                Arrays.asList(2, 1003),
+                Arrays.asList(1, 16),
+                Arrays.asList(2, 16),
+                Arrays.asList(3, 1)
+        );
+        List<Integer> actual = FrequencyQueries.of(queries);
+
+        Assertions.assertAll(() -> {
+            Assertions.assertEquals(2, actual.size());
+            Assertions.assertEquals(0, actual.get(0));
+            Assertions.assertEquals(0, actual.get(1));
+        });
+    }
+
+    @Test
+    @DisplayName("Return [0,1,1] When frequency queris With third exemple")
     public void test4() {
 
         List<List<Integer>> queries = Arrays.asList(
@@ -99,7 +120,7 @@ class FrequencyQueriesTest {
     }
 
     @Test
-    @DisplayName("Return ... When frequency queris With hackerrank exemple")
+    @DisplayName("Return [...].size()=42 When frequency queris With hackerrank exemple")
     public void test5() {
 
         List<List<Integer>> queries = Arrays.asList(
@@ -213,4 +234,35 @@ class FrequencyQueriesTest {
         });
     }
 
+    @Test
+    @DisplayName("Return frequency.get(1) = 1 When plusFrequency Given frequency=1")
+    void addFrequency1() {
+        Map<Integer,Integer> frequencies = new HashMap<>();
+
+        int frequency = 1;
+        FrequencyQueries.plusFrequency(frequencies,frequency);
+        Assertions.assertEquals(1,frequencies.get(1));
+    }
+
+    @Test
+    @DisplayName("Return frequency.get(2) = 1 When subtractFrequency Given value = 2 .get(2) = 2")
+    void subtractFrequency1() {
+        Map<Integer,Integer> frequency = new HashMap<>();
+        frequency.put(2,2);
+
+        int value = 2;
+        FrequencyQueries.minusFrequency(frequency,value);
+        Assertions.assertEquals(1,frequency.get(2));
+    }
+    @Test
+    @DisplayName("Return frequency.get(2) = null When subtractFrequency Given value = 2 .get(2) = 1")
+    void subtractFrequency2() {
+        Map<Integer,Integer> frequency = new HashMap<>();
+        frequency.put(2,1);
+
+        int value = 2;
+        FrequencyQueries.minusFrequency(frequency,value);
+        Assertions.assertEquals(0,frequency.size());
+        Assertions.assertNull(frequency.get(2));
+    }
 }
