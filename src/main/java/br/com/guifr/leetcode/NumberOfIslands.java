@@ -9,8 +9,6 @@ public class NumberOfIslands {
 
     public int numIslands(char[][] grid) {
 
-//        "123".toCharArray()
-
         int result = 0;
 
         for(int x = 0 ; x < grid.length ; x ++){
